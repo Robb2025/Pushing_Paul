@@ -5,7 +5,12 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Content/Characters/Enemies/BP_Enemy_Detect.uasset"
+				"C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Content/Characters/Enemies/BP_Enemy_Detect.uasset",
+				"C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Content/Characters/Enemies/BT_enemy_Detect.uasset",
+				"C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Content/Characters/Enemies/BB_enemy_Detect.uasset",
+				"C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/LP/WVBJOYG9CDRUYFNGX9LKXY.uasset",
+				"C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/QX/E9OSLNRBQ7757F7MGY9X5D.uasset",
+				"C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/LP/JYS2GAOKQ2HVSCOMWZIXSU.uasset"
 			]
 		}
 	]

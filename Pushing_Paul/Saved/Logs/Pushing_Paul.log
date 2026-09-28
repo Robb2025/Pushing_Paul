@@ -4568,3 +4568,315 @@ Stack:
 [2026.09.28-22.18.08:024][717]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
 [2026.09.28-22.18.08:024][717]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
 [2026.09.28-22.18.08:024][717]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.09.28-22.19.37:081][120]LogBlueprint: Compiling Blueprint '/Game/Characters/Enemies/BP_Enemy_Detect.BP_Enemy_Detect'
+[2026.09.28-22.19.37:251][120]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2026.09.28-22.19.38:465][193]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.28-22.19.38:528][193]LogFileHelpers: Saving Package: /Game/Characters/Enemies/BP_Enemy_Detect
+[2026.09.28-22.19.38:528][193]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Enemies/BP_Enemy_Detect] ([2] browsable assets)...
+[2026.09.28-22.19.38:545][193]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/Enemies/BP_Enemy_Detect.BP_Enemy_Detect]
+[2026.09.28-22.19.38:545][193]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Enemies/BP_Enemy_Detect]
+[2026.09.28-22.19.38:545][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Enemies/BP_Enemy_Detect" FILE="C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Content/Characters/Enemies/BP_Enemy_Detect.uasset" SILENT=true
+[2026.09.28-22.19.38:559][193]LogSavePackage: Moving output files for package: /Game/Characters/Enemies/BP_Enemy_Detect
+[2026.09.28-22.19.38:560][193]LogSavePackage: Moving 'C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Saved/BP_Enemy_DetectAC41E21C44C614727F41BF9398080C3E.tmp' to 'C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Content/Characters/Enemies/BP_Enemy_Detect.uasset'
+[2026.09.28-22.19.38:568][193]LogFileHelpers: InternalPromptForCheckoutAndSave took 104.499 ms (total: 798.581 ms)
+[2026.09.28-22.19.38:651][193]LogContentValidation: Enabled validators:
+[2026.09.28-22.19.38:651][193]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.28-22.19.38:651][193]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.09.28-22.19.38:651][193]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.28-22.19.38:651][193]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.28-22.19.38:651][193]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.28-22.19.38:651][193]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.28-22.19.38:651][193]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.28-22.19.38:651][193]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.09.28-22.19.38:651][193]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.09.28-22.19.38:652][193]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.09.28-22.19.38:652][193]LogContentValidation: Additional assets added for validation by 0 validators:
+[2026.09.28-22.19.38:652][193]AssetCheck: /Game/Characters/Enemies/BP_Enemy_Detect Validating asset
+[2026.09.28-22.19.38:652][193]LogContentValidation: Validated asset counts for 9 validators:
+[2026.09.28-22.19.38:652][193]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.09.28-22.19.38:652][193]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.09.28-22.19.38:652][193]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.09.28-22.19.38:652][193]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.09.28-22.19.38:652][193]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.09.28-22.19.38:652][193]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.09.28-22.19.38:652][193]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.09.28-22.19.38:652][193]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.09.28-22.19.38:652][193]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.09.28-22.19.49:966][ 55]LogBlueprint: Compiling Blueprint '/Game/Characters/Enemies/BP_Enemy_Detect.BP_Enemy_Detect'
+[2026.09.28-22.19.50:128][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2026.09.28-22.19.50:941][108]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.28-22.19.51:013][108]LogFileHelpers: Saving Package: /Game/Characters/Enemies/BP_Enemy_Detect
+[2026.09.28-22.19.51:013][108]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Enemies/BP_Enemy_Detect] ([2] browsable assets)...
+[2026.09.28-22.19.51:025][108]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/Enemies/BP_Enemy_Detect.BP_Enemy_Detect]
+[2026.09.28-22.19.51:025][108]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Enemies/BP_Enemy_Detect]
+[2026.09.28-22.19.51:025][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Enemies/BP_Enemy_Detect" FILE="C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Content/Characters/Enemies/BP_Enemy_Detect.uasset" SILENT=true
+[2026.09.28-22.19.51:038][108]LogSavePackage: Moving output files for package: /Game/Characters/Enemies/BP_Enemy_Detect
+[2026.09.28-22.19.51:039][108]LogSavePackage: Moving 'C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Saved/BP_Enemy_DetectD112CE3B4C385C17AE2B80A66911B635.tmp' to 'C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Content/Characters/Enemies/BP_Enemy_Detect.uasset'
+[2026.09.28-22.19.51:048][108]LogFileHelpers: InternalPromptForCheckoutAndSave took 106.952 ms (total: 905.533 ms)
+[2026.09.28-22.19.51:098][108]LogContentValidation: Enabled validators:
+[2026.09.28-22.19.51:098][108]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.28-22.19.51:098][108]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.09.28-22.19.51:098][108]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.28-22.19.51:098][108]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.28-22.19.51:098][108]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.28-22.19.51:098][108]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.28-22.19.51:098][108]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.28-22.19.51:098][108]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.09.28-22.19.51:098][108]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.09.28-22.19.51:098][108]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.09.28-22.19.51:098][108]LogContentValidation: Additional assets added for validation by 0 validators:
+[2026.09.28-22.19.51:098][108]AssetCheck: /Game/Characters/Enemies/BP_Enemy_Detect Validating asset
+[2026.09.28-22.19.51:098][108]LogContentValidation: Validated asset counts for 9 validators:
+[2026.09.28-22.19.51:098][108]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.09.28-22.19.51:098][108]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.09.28-22.19.51:098][108]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.09.28-22.19.51:098][108]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.09.28-22.19.51:098][108]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.09.28-22.19.51:098][108]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.09.28-22.19.51:098][108]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.09.28-22.19.51:098][108]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.09.28-22.19.51:098][108]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.09.28-22.21.48:602][913]LogShaderCompilers: Display: ================================================
+[2026.09.28-22.21.48:602][913]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.09.28-22.21.48:602][913]LogShaderCompilers: Display: Total job queries 20,336, among them cache hits 3,443 (16.93%), DDC hits 7,979 (39.24%), Duplicates 2,219 (10.91%)
+[2026.09.28-22.21.48:602][913]LogShaderCompilers: Display: Tracking 14,674 distinct input hashes that result in 13,628 distinct outputs (92.87%)
+[2026.09.28-22.21.48:602][913]LogShaderCompilers: Display: RAM used: 197.96 MiB of 1.60 GiB budget. Usage: 12.08%
+[2026.09.28-22.21.48:602][913]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.09.28-22.21.48:602][913]LogShaderCompilers: Display: Shaders Compiled: 6,695
+[2026.09.28-22.21.48:602][913]LogShaderCompilers: Display: Jobs assigned 6,695, completed 6,695 (100%)
+[2026.09.28-22.21.48:602][913]LogShaderCompilers: Display: Average time worker was idle: 289.03 s
+[2026.09.28-22.21.48:602][913]LogShaderCompilers: Display: Time job spent in pending queue: average 268.47 s, longest 484.83 s
+[2026.09.28-22.21.48:602][913]LogShaderCompilers: Display: Job execution time: average 7.10 s, max 106.19 s
+[2026.09.28-22.21.48:602][913]LogShaderCompilers: Display: Job life time (pending + execution): average 275.57 s, max 485.71
+[2026.09.28-22.21.48:602][913]LogShaderCompilers: Display: Shader code size: total 164.077 MiB, numShaders 6,724, average 24.987 KiB, min 1.199 KiB, max 360.525 KiB
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 871.80 s
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display: Jobs were issued in 793 batches (only local compilation was used), average 8.44 jobs/batch
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display: Average processing rate: 7.68 jobs/sec
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display: Total thread time: 4,842.29 s
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display: Total thread preprocess time: 415.293 s
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display: Percentage time preprocessing: 8.58%
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display: Effective parallelization: 5.55 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.694295
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled    9 times, average 18.77 sec, max 45.96 sec, min 2.73 sec)
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display:                                               FPathTracingRG (compiled   24 times, average 14.79 sec, max 39.76 sec, min 7.38 sec)
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS (compiled  216 times, average 2.56 sec, max 4.96 sec, min 0.69 sec)
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display:                          FPathTracingVolumetricCloudMaterial (compiled    1 times, average 2.09 sec, max 2.09 sec, min 2.09 sec)
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled    5 times, average 2.06 sec, max 2.54 sec, min 1.71 sec)
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 11.99% of total time (compiled  440 times, average 1.32 sec, max 2.88 sec, min 0.00 sec)
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 11.44% of total time (compiled  216 times, average 2.56 sec, max 4.96 sec, min 0.69 sec)
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display:                                         FShadeLightSamplesCS - 7.58% of total time (compiled  432 times, average 0.85 sec, max 1.59 sec, min 0.23 sec)
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display:                                               FPathTracingRG - 7.33% of total time (compiled   24 times, average 14.79 sec, max 39.76 sec, min 7.38 sec)
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display:                                             FDeferredLightPS - 5.83% of total time (compiled  472 times, average 0.60 sec, max 1.90 sec, min 0.17 sec)
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display: === Material stats ===
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display: Materials Translated:    160
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display: Material Total Translate Time: 0.10 s
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display: Material Translation Only: 0.07 s (67%)
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.09.28-22.21.48:603][913]LogShaderCompilers: Display: ================================================
+[2026.09.28-22.21.51:676][139]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_16.svg'. File could not be found
+[2026.09.28-22.21.51:676][139]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/ToonProfile_16.svg'. File could not be found
+[2026.09.28-22.21.55:367][314]LogContentBrowser: Deferred new asset file creation: NewBehaviorTree
+[2026.09.28-22.21.55:389][314]LogContentBrowser: Creating deferred item: NewBehaviorTree
+[2026.09.28-22.21.55:421][315]LogContentBrowser: Renaming the item being created (Deferred Item: NewBehaviorTree).
+[2026.09.28-22.21.57:605][520]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26652.990234
+[2026.09.28-22.21.57:776][534]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.28-22.21.57:776][534]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26653.148438, Update Interval: 357.571960
+[2026.09.28-22.22.17:853][256]LogContentBrowser: Attempting asset rename: NewBehaviorTree -> BT_enemy_Detect
+[2026.09.28-22.22.17:856][256]LogContentBrowser: End creating deferred item NewBehaviorTree
+[2026.09.28-22.22.19:068][357]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/Characters/Enemies/BT_enemy_Detect.BT_enemy_Detect
+[2026.09.28-22.23.02:933][160]LogSlate: Window 'Save Asset As' being destroyed
+[2026.09.28-22.23.19:118][ 28]LogSlate: Window 'Save Asset As' being destroyed
+[2026.09.28-22.23.20:586][166]LogEditorClassViewer: Warning: Class /Script/ModelViewViewModelBlueprint.MVVMK2Node_LoadSoftTexture has parent /Script/ModelViewViewModelBlueprint.MVVMK2Node_LoadSoftResource, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.09.28-22.23.20:586][166]LogEditorClassViewer: Warning: Class /Script/ModelViewViewModelBlueprint.MVVMK2Node_LoadSoftMaterial has parent /Script/ModelViewViewModelBlueprint.MVVMK2Node_LoadSoftResource, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.09.28-22.23.20:586][166]LogEditorClassViewer: Warning: Class /Script/ModelViewViewModelBlueprint.MVVMK2Node_LoadSoftInputAction has parent /Script/ModelViewViewModelBlueprint.MVVMK2Node_LoadSoftResource, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.09.28-22.23.20:586][166]LogEditorClassViewer: Warning: Class /Script/ModelViewViewModelBlueprint.MVVMK2Node_MakeBrushFromSoftTexture has parent /Script/ModelViewViewModelBlueprint.MVVMK2Node_MakeBrushFromSoftResource, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.09.28-22.23.20:586][166]LogEditorClassViewer: Warning: Class /Script/ModelViewViewModelBlueprint.MVVMK2Node_MakeBrushFromSoftMaterial has parent /Script/ModelViewViewModelBlueprint.MVVMK2Node_MakeBrushFromSoftResource, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.09.28-22.24.33:491][491]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2026.09.28-22.24.33:507][491]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/LP/WVBJOYG9CDRUYFNGX9LKXY_Auto4
+[2026.09.28-22.24.33:507][491]LogSavePackage: Moving 'C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Saved/WVBJOYG9CDRUYFNGX9LKXY_Auto44BFA999D491B53641D5EFBB49312567C.tmp' to 'C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/LP/WVBJOYG9CDRUYFNGX9LKXY_Auto4.uasset'
+[2026.09.28-22.24.33:510][491]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Lvl_FirstPerson' took 0.080
+[2026.09.28-22.24.33:510][491]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.080
+[2026.09.28-22.24.33:511][491]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Enemies/BT_enemy_Detect] ([1] browsable assets)...
+[2026.09.28-22.24.33:511][491]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Enemies/BT_enemy_Detect]
+[2026.09.28-22.24.33:517][491]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Enemies/BT_enemy_Detect_Auto4
+[2026.09.28-22.24.33:517][491]LogSavePackage: Moving 'C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Saved/BT_enemy_Detect_Auto4BDA9E8F84451FC4AA3E81CBD2F74081E.tmp' to 'C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/Characters/Enemies/BT_enemy_Detect_Auto4.uasset'
+[2026.09.28-22.24.33:652][491]LogFileHelpers: Auto-saving content packages took 0.142
+[2026.09.28-22.25.46:704][694]LogSlate: Window 'Save Asset As' being destroyed
+[2026.09.28-22.26.08:115][264]LogSlate: Window 'Save Asset As' being destroyed
+[2026.09.28-22.26.27:326][269]LogSlate: Window 'Save Asset As' being destroyed
+[2026.09.28-22.26.30:263][523]LogAssetEditorSubsystem: Opening Asset editor for BlackboardData /Game/Characters/Enemies/BB_enemy_Detect.BB_enemy_Detect
+[2026.09.28-22.28.48:094][869]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 27059.498047
+[2026.09.28-22.28.48:269][890]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.28-22.28.48:269][890]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 27059.666016, Update Interval: 333.375641
+[2026.09.28-22.32.09:696][405]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.28-22.32.09:746][405]LogFileHelpers: Saving Package: /Game/Characters/Enemies/BT_enemy_Detect
+[2026.09.28-22.32.09:746][405]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Enemies/BT_enemy_Detect] ([1] browsable assets)...
+[2026.09.28-22.32.09:746][405]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Enemies/BT_enemy_Detect]
+[2026.09.28-22.32.09:746][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Enemies/BT_enemy_Detect" FILE="C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Content/Characters/Enemies/BT_enemy_Detect.uasset" SILENT=true
+[2026.09.28-22.32.09:756][405]LogSavePackage: Moving output files for package: /Game/Characters/Enemies/BT_enemy_Detect
+[2026.09.28-22.32.09:756][405]LogSavePackage: Moving 'C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Saved/BT_enemy_DetectA799314F43DCE3FAFD779B81194FFDBB.tmp' to 'C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Content/Characters/Enemies/BT_enemy_Detect.uasset'
+[2026.09.28-22.32.09:765][405]LogFileHelpers: InternalPromptForCheckoutAndSave took 68.502 ms (total: 974.036 ms)
+[2026.09.28-22.32.09:813][405]LogContentValidation: Enabled validators:
+[2026.09.28-22.32.09:813][405]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.28-22.32.09:813][405]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.09.28-22.32.09:813][405]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.28-22.32.09:813][405]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.28-22.32.09:813][405]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.28-22.32.09:813][405]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.28-22.32.09:813][405]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.28-22.32.09:813][405]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.09.28-22.32.09:813][405]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.09.28-22.32.09:813][405]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.09.28-22.32.09:813][405]LogContentValidation: Additional assets added for validation by 0 validators:
+[2026.09.28-22.32.09:813][405]AssetCheck: /Game/Characters/Enemies/BT_enemy_Detect Validating asset
+[2026.09.28-22.32.09:813][405]LogContentValidation: Validated asset counts for 9 validators:
+[2026.09.28-22.32.09:813][405]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.09.28-22.32.09:813][405]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.09.28-22.32.09:813][405]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.09.28-22.32.09:813][405]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.09.28-22.32.09:813][405]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.09.28-22.32.09:813][405]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.09.28-22.32.09:813][405]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.09.28-22.32.09:813][405]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.09.28-22.32.09:813][405]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.09.28-22.32.09:840][405]LogSourceControl: Display: Uncontrolled Changelist persistency file saved C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Saved/SourceControl/UncontrolledChangelists.json
+[2026.09.28-22.32.13:458][762]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2026.09.28-22.32.14:893][762]LogSlate: Window 'Save Content' being destroyed
+[2026.09.28-22.32.14:938][762]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.28-22.32.15:051][762]LogFileHelpers: Saving Package: /Game/Characters/Enemies/BB_enemy_Detect
+[2026.09.28-22.32.15:051][762]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Enemies/BB_enemy_Detect] ([1] browsable assets)...
+[2026.09.28-22.32.15:053][762]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Enemies/BB_enemy_Detect]
+[2026.09.28-22.32.15:053][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Enemies/BB_enemy_Detect" FILE="C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Content/Characters/Enemies/BB_enemy_Detect.uasset" SILENT=true
+[2026.09.28-22.32.15:061][762]LogSavePackage: Moving output files for package: /Game/Characters/Enemies/BB_enemy_Detect
+[2026.09.28-22.32.15:061][762]LogSavePackage: Moving 'C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Saved/BB_enemy_Detect89857F6C40E220EBA511E89EF82D1FD8.tmp' to 'C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Content/Characters/Enemies/BB_enemy_Detect.uasset'
+[2026.09.28-22.32.15:094][762]LogFileHelpers: Saving Package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/LP/WVBJOYG9CDRUYFNGX9LKXY
+[2026.09.28-22.32.15:105][762]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/LP/WVBJOYG9CDRUYFNGX9LKXY
+[2026.09.28-22.32.15:105][762]LogSavePackage: Moving 'C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Saved/WVBJOYG9CDRUYFNGX9LKXYD77C1ED942E8CF10235E8082BE1AFDC3.tmp' to 'C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/0/LP/WVBJOYG9CDRUYFNGX9LKXY.uasset'
+[2026.09.28-22.32.15:107][762]LogFileHelpers: Saving Package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/QX/E9OSLNRBQ7757F7MGY9X5D
+[2026.09.28-22.32.15:117][762]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/QX/E9OSLNRBQ7757F7MGY9X5D
+[2026.09.28-22.32.15:117][762]LogSavePackage: Moving 'C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Saved/E9OSLNRBQ7757F7MGY9X5D4320509041DB0594CDD2C1A809F75374.tmp' to 'C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/QX/E9OSLNRBQ7757F7MGY9X5D.uasset'
+[2026.09.28-22.32.15:119][762]LogFileHelpers: Saving Package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/LP/JYS2GAOKQ2HVSCOMWZIXSU
+[2026.09.28-22.32.15:126][762]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/LP/JYS2GAOKQ2HVSCOMWZIXSU
+[2026.09.28-22.32.15:126][762]LogSavePackage: Moving 'C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Saved/JYS2GAOKQ2HVSCOMWZIXSUF5586EF74597D1F32935FEAE107E6107.tmp' to 'C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/5/LP/JYS2GAOKQ2HVSCOMWZIXSU.uasset'
+[2026.09.28-22.32.15:180][762]LogFileHelpers: InternalPromptForCheckoutAndSave took 241.897 ms (total: 1.21 sec)
+[2026.09.28-22.32.15:300][762]LogContentValidation: Enabled validators:
+[2026.09.28-22.32.15:300][762]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.28-22.32.15:300][762]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.09.28-22.32.15:300][762]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.28-22.32.15:300][762]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.28-22.32.15:300][762]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.28-22.32.15:300][762]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.28-22.32.15:300][762]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.28-22.32.15:300][762]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.09.28-22.32.15:300][762]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.09.28-22.32.15:300][762]LogContentValidation: Display: Starting to validate 2 assets (4 associated objects such as actors)
+[2026.09.28-22.32.15:300][762]LogContentValidation: Additional assets added for validation by 0 validators:
+[2026.09.28-22.32.15:300][762]AssetCheck: /Game/Characters/Enemies/BB_enemy_Detect Validating asset
+[2026.09.28-22.32.15:300][762]AssetCheck: /Game/FirstPerson/Lvl_FirstPerson Validating asset
+[2026.09.28-22.32.15:300][762]LogContentValidation: Validated asset counts for 9 validators:
+[2026.09.28-22.32.15:300][762]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.09.28-22.32.15:300][762]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.09.28-22.32.15:300][762]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 2
+[2026.09.28-22.32.15:300][762]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.09.28-22.32.15:300][762]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.09.28-22.32.15:300][762]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.09.28-22.32.15:300][762]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.09.28-22.32.15:300][762]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.09.28-22.32.15:300][762]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.09.28-22.32.15:383][762]LogSourceControl: Display: Uncontrolled Changelist persistency file saved C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Saved/SourceControl/UncontrolledChangelists.json
+[2026.09.28-22.32.18:696][940]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2026.09.28-22.32.18:750][940]LogStall: Shutdown...
+[2026.09.28-22.32.18:758][940]LogStall: Shutdown complete.
+[2026.09.28-22.32.18:802][940]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.09.28-22.32.18:802][940]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2026.09.28-22.32.18:802][940]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.28-22.32.18:951][940]LogSlate: Window 'Pushing_Paul - Unreal Editor' being destroyed
+[2026.09.28-22.32.19:172][940]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2026.09.28-22.32.19:205][940]Cmd: QUIT_EDITOR
+[2026.09.28-22.32.19:205][941]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2026.09.28-22.32.19:298][941]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.09.28-22.32.19:299][941]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.09.28-22.32.19:299][941]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.09.28-22.32.19:307][941]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2026.09.28-22.32.19:308][941]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2026.09.28-22.32.19:308][941]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.28-22.32.19:308][941]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson
+[2026.09.28-22.32.19:308][941]LogMovieScene: USequencerBakeSubsystem subsystem deinitialized.
+[2026.09.28-22.32.19:320][941]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2026.09.28-22.32.19:357][941]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.09.28-22.32.19:367][941]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2026.09.28-22.32.19:367][941]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.28-22.32.19:371][941]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2026.09.28-22.32.19:371][941]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.28-22.32.19:376][941]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2026.09.28-22.32.19:376][941]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.28-22.32.19:381][941]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2026.09.28-22.32.19:382][941]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.28-22.32.19:386][941]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2026.09.28-22.32.19:386][941]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.28-22.32.19:390][941]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2026.09.28-22.32.19:390][941]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.28-22.32.19:395][941]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2026.09.28-22.32.19:395][941]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.28-22.32.19:402][941]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2026.09.28-22.32.19:402][941]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.28-22.32.19:407][941]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2026.09.28-22.32.19:407][941]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.28-22.32.19:413][941]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2026.09.28-22.32.19:413][941]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.28-22.32.19:423][941]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.09.28-22.32.19:720][941]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2026.09.28-22.32.19:934][941]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerWasapi)...
+[2026.09.28-22.32.19:936][941]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.09.28-22.32.19:936][941]LogAudio: Display: Audio Device unregistered from world 'Lvl_FirstPerson'.
+[2026.09.28-22.32.19:936][941]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.09.28-22.32.19:936][941]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=1, StreamState=4
+[2026.09.28-22.32.19:944][941]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.09.28-22.32.19:980][941]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.09.28-22.32.19:980][941]LogAudio: Display: Audio Device Manager Shutdown
+[2026.09.28-22.32.20:053][941]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
+[2026.09.28-22.32.20:059][941]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.09.28-22.32.20:059][941]LogExit: Preparing to exit.
+[2026.09.28-22.32.20:274][941]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2026.09.28-22.32.20:279][941]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.09.28-22.32.20:746][941]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+[2026.09.28-22.32.20:746][941]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.09.28-22.32.20:750][941]LogEditorDataStorage: Deinitializing
+[2026.09.28-22.32.20:751][941]LogEditorDataStorage: De-initializing TEDS Compatibility.
+[2026.09.28-22.32.20:751][941]LogEditorDataStorage: De-initialized TEDS Compatibility.
+[2026.09.28-22.32.20:751][941]LogEditorDataStorage: De-initializing TEDS Core.
+[2026.09.28-22.32.20:751][941]LogEditorDataStorage: Resetting TEDS Core.
+[2026.09.28-22.32.20:753][941]LogEditorDataStorage: Reset TEDS Core.
+[2026.09.28-22.32.20:753][941]LogEditorDataStorage: De-initialized TEDS Core.
+[2026.09.28-22.32.20:906][941]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.09.28-22.32.20:930][941]LogExit: Editor shut down
+[2026.09.28-22.32.20:936][941]LogExit: Transaction tracking system shut down
+[2026.09.28-22.32.21:068][941]LogEditorDataStorage: Destroyed TEDS Core.
+[2026.09.28-22.32.21:068][941]LogEditorDataStorage: Destroyed TEDS Compatibility.
+[2026.09.28-22.32.21:106][941]LogEditorDataStorage: Destroyed TEDS Core.
+[2026.09.28-22.32.21:106][941]LogEditorDataStorage: Destroyed TEDS Compatibility.
+[2026.09.28-22.32.21:256][941]LogExit: Object subsystem successfully closed.
+[2026.09.28-22.32.21:369][941]LogShaderCompilers: Display: Exiting ShaderCompilingThread
+[2026.09.28-22.32.21:494][941]LogObjectProfiler: Shutdown
+[2026.09.28-22.32.21:494][941]LogMemoryProfiler: Shutdown
+[2026.09.28-22.32.21:494][941]LogNetworkingProfiler: Shutdown
+[2026.09.28-22.32.21:494][941]LogLoadingProfiler: Shutdown
+[2026.09.28-22.32.21:494][941]LogTimingProfiler: Shutdown
+[2026.09.28-22.32.21:495][941]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.09.28-22.32.21:495][941]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.09.28-22.32.21:496][941]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDCameraTracesExtension] ...
+[2026.09.28-22.32.21:496][941]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDParticleExtraDataExtension] ...
+[2026.09.28-22.32.21:496][941]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FPerformanceMetricsExtension] ...
+[2026.09.28-22.32.21:892][941]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.09.28-22.32.21:899][941]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2026.09.28-22.32.21:899][941]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE6EE6E0B-4580-0243-8BB2-8C97B27F2A1A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.8.3-58210709%2B%2B%2BUE5%2BRelease-5.8&UserID=745475ba4dd031b2969344983dd12e9f%7Ce2822884794b4399ab2e61678b288bd1%7C4254b535-0827-4f43-b3c6-1755ee490068&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2026.09.28-22.32.22:481][941]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2026.09.28-22.32.22:488][941]RenderDocPlugin: plugin has been unloaded.
+[2026.09.28-22.32.22:488][941]LogNFORDenoise: NFORDenoise function shutting down
+[2026.09.28-22.32.22:494][941]LogPakFile: Destroying PakPlatformFile
+[2026.09.28-22.32.23:042][941]LogD3D12RHI: ~FD3D12DynamicRHI
+[2026.09.28-22.32.23:081][941]LogExit: Exiting.
+[2026.09.28-22.32.23:113][941]Log file closed, 09/28/26 23:32:23
