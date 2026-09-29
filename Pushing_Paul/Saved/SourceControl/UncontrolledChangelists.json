@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Content/Characters/Enemies/BP_Enemy_Detect.uasset",
+				"C:/Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Content/Characters/Enemies/BT_enemy_Detect.uasset",
+				"C:/Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Content/Characters/Enemies/BB_enemy_Detect.uasset",
+				"C:/Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Content/Characters/Enemies/BT_ChasePlayer.uasset",
+				"C:/Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Content/Characters/Enemies/BP_Target.uasset",
+				"C:/Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Content/Characters/Enemies/BP_Enemy_Detect_Controller.uasset",
+				"C:/Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Content/Characters/Enemies/BT_Patrol.uasset",
 				"C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Content/Characters/Enemies/BP_Enemy_Detect.uasset",
 				"C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Content/Characters/Enemies/BT_enemy_Detect.uasset",
 				"C:/Users/Josh/Desktop/Level_design/Pushing_Paul/Pushing_Paul/Content/Characters/Enemies/BB_enemy_Detect.uasset",
