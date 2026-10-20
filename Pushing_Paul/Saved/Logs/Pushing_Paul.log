@@ -15547,3 +15547,194 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.10.20-15.14.24:430][141]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Level_Blockout' took 0.104
 [2026.10.20-15.14.24:430][141]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.104
 [2026.10.20-15.14.40:849][191]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node 47CEA9D14A09D467C37CD3895A5B93E2 (172.17.123.106:58759)
+[2026.10.20-15.15.45:334][115]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2026.10.20-15.15.46:747][115]LogSlate: Window 'Save Content' being destroyed
+[2026.10.20-15.15.46:757][115]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.20-15.15.46:805][115]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/5/4A/AL7JOPN41XMUBMWOIILCIL
+[2026.10.20-15.15.46:817][115]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/5/4A/AL7JOPN41XMUBMWOIILCIL
+[2026.10.20-15.15.46:818][115]LogSavePackage: Moving '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Saved/AL7JOPN41XMUBMWOIILCIL79222E1448B6A7B7219DD0B1FB59071C.tmp' to '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/5/4A/AL7JOPN41XMUBMWOIILCIL.uasset'
+[2026.10.20-15.15.46:819][115]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/0/U4/NQWHYQ9OFWHP4Y0D4RFSCB
+[2026.10.20-15.15.46:826][115]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/0/U4/NQWHYQ9OFWHP4Y0D4RFSCB
+[2026.10.20-15.15.46:826][115]LogSavePackage: Moving '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Saved/NQWHYQ9OFWHP4Y0D4RFSCB6B5BF934434387DDCE5D649608044EFA.tmp' to '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/0/U4/NQWHYQ9OFWHP4Y0D4RFSCB.uasset'
+[2026.10.20-15.15.46:827][115]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/E/JW/U3VYY2OGVMZVC12JDTBRA3
+[2026.10.20-15.15.46:835][115]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/E/JW/U3VYY2OGVMZVC12JDTBRA3
+[2026.10.20-15.15.46:835][115]LogSavePackage: Moving '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Saved/U3VYY2OGVMZVC12JDTBRA3D4C5C5104848577619903C9CCC5FA7B3.tmp' to '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/E/JW/U3VYY2OGVMZVC12JDTBRA3.uasset'
+[2026.10.20-15.15.46:836][115]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/1/MM/LAD76WV4U8ZVECH0KNRJLD
+[2026.10.20-15.15.46:843][115]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/1/MM/LAD76WV4U8ZVECH0KNRJLD
+[2026.10.20-15.15.46:843][115]LogSavePackage: Moving '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Saved/LAD76WV4U8ZVECH0KNRJLDE0EFB28F44C033DC027691B1171B7E71.tmp' to '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/1/MM/LAD76WV4U8ZVECH0KNRJLD.uasset'
+[2026.10.20-15.15.46:845][115]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/1/96/FCTSSEVHCZHFR3UG7IMZZQ
+[2026.10.20-15.15.46:851][115]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/1/96/FCTSSEVHCZHFR3UG7IMZZQ
+[2026.10.20-15.15.46:852][115]LogSavePackage: Moving '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Saved/FCTSSEVHCZHFR3UG7IMZZQ1A5E03B5482A646500B09DB055BDC1D5.tmp' to '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/1/96/FCTSSEVHCZHFR3UG7IMZZQ.uasset'
+[2026.10.20-15.15.46:853][115]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/6/6F/7UKGZDM0RDI8KTPN2ITYFU
+[2026.10.20-15.15.46:859][115]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/6/6F/7UKGZDM0RDI8KTPN2ITYFU
+[2026.10.20-15.15.46:861][115]LogSavePackage: Moving '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Saved/7UKGZDM0RDI8KTPN2ITYFU5C27DCD348FC587161736D8E169D1220.tmp' to '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/6/6F/7UKGZDM0RDI8KTPN2ITYFU.uasset'
+[2026.10.20-15.15.46:862][115]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/9/J7/5ZXFF5CY9D50AF21OY6JIC
+[2026.10.20-15.15.46:868][115]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/9/J7/5ZXFF5CY9D50AF21OY6JIC
+[2026.10.20-15.15.46:868][115]LogSavePackage: Moving '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Saved/5ZXFF5CY9D50AF21OY6JICFE70DEEF4B9CFA210ED9568F6C497682.tmp' to '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/9/J7/5ZXFF5CY9D50AF21OY6JIC.uasset'
+[2026.10.20-15.15.46:869][115]LogFileHelpers: Saving Package: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_AO
+[2026.10.20-15.15.46:870][115]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_AO] ([1] browsable assets)...
+[2026.10.20-15.15.46:870][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_AO]
+[2026.10.20-15.15.46:876][115]LogSavePackage: Moving output files for package: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_AO
+[2026.10.20-15.15.46:876][115]LogSavePackage: Moving '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Saved/Wall_Paint_qj2luvs0_4K_AO4105E1ED4BC8A64A2FF9FC9A48D25130.tmp' to '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Content/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_AO.uasset'
+[2026.10.20-15.15.46:878][115]LogFileHelpers: Saving Package: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_BaseColor
+[2026.10.20-15.15.46:879][115]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_BaseColor] ([1] browsable assets)...
+[2026.10.20-15.15.46:879][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_BaseColor]
+[2026.10.20-15.15.46:886][115]LogSavePackage: Moving output files for package: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_BaseColor
+[2026.10.20-15.15.46:886][115]LogSavePackage: Moving '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Saved/Wall_Paint_qj2luvs0_4K_BaseColor7FDC9ABB468C131FC6707BACE2921002.tmp' to '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Content/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_BaseColor.uasset'
+[2026.10.20-15.15.46:888][115]LogFileHelpers: Saving Package: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Bump
+[2026.10.20-15.15.46:888][115]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Bump] ([1] browsable assets)...
+[2026.10.20-15.15.46:888][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Bump]
+[2026.10.20-15.15.46:895][115]LogSavePackage: Moving output files for package: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Bump
+[2026.10.20-15.15.46:895][115]LogSavePackage: Moving '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Saved/Wall_Paint_qj2luvs0_4K_Bump0BA2B25E4C267C9BC9793A8AAF62A893.tmp' to '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Content/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Bump.uasset'
+[2026.10.20-15.15.46:896][115]LogFileHelpers: Saving Package: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Cavity
+[2026.10.20-15.15.46:896][115]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Cavity] ([1] browsable assets)...
+[2026.10.20-15.15.46:896][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Cavity]
+[2026.10.20-15.15.46:904][115]LogSavePackage: Moving output files for package: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Cavity
+[2026.10.20-15.15.46:904][115]LogSavePackage: Moving '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Saved/Wall_Paint_qj2luvs0_4K_Cavity59F0056F46D1559B14249AA0BE81B718.tmp' to '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Content/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Cavity.uasset'
+[2026.10.20-15.15.46:905][115]LogFileHelpers: Saving Package: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Displacement
+[2026.10.20-15.15.46:905][115]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Displacement] ([1] browsable assets)...
+[2026.10.20-15.15.46:905][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Displacement]
+[2026.10.20-15.15.46:913][115]LogSavePackage: Moving output files for package: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Displacement
+[2026.10.20-15.15.46:913][115]LogSavePackage: Moving '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Saved/Wall_Paint_qj2luvs0_4K_Displacem9D2D099E4CC006905E5A459FBB2C6F6F.tmp' to '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Content/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Displacement.uasset'
+[2026.10.20-15.15.46:916][115]LogFileHelpers: Saving Package: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Gloss
+[2026.10.20-15.15.46:916][115]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Gloss] ([1] browsable assets)...
+[2026.10.20-15.15.46:916][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Gloss]
+[2026.10.20-15.15.46:925][115]LogSavePackage: Moving output files for package: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Gloss
+[2026.10.20-15.15.46:925][115]LogSavePackage: Moving '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Saved/Wall_Paint_qj2luvs0_4K_Gloss93179F844D189D66B283A88FC235AF0C.tmp' to '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Content/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Gloss.uasset'
+[2026.10.20-15.15.46:926][115]LogFileHelpers: Saving Package: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Normal
+[2026.10.20-15.15.46:926][115]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Normal] ([1] browsable assets)...
+[2026.10.20-15.15.46:926][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Normal]
+[2026.10.20-15.15.46:936][115]LogSavePackage: Moving output files for package: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Normal
+[2026.10.20-15.15.46:936][115]LogSavePackage: Moving '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Saved/Wall_Paint_qj2luvs0_4K_Normal6B2C883D45822A0368BCB7988166B317.tmp' to '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Content/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Normal.uasset'
+[2026.10.20-15.15.46:937][115]LogFileHelpers: Saving Package: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Roughness
+[2026.10.20-15.15.46:937][115]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Roughness] ([1] browsable assets)...
+[2026.10.20-15.15.46:937][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Roughness]
+[2026.10.20-15.15.46:944][115]LogSavePackage: Moving output files for package: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Roughness
+[2026.10.20-15.15.46:944][115]LogSavePackage: Moving '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Saved/Wall_Paint_qj2luvs0_4K_Roughness64CB89194B2B7555690C399FAC9CCA43.tmp' to '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Content/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Roughness.uasset'
+[2026.10.20-15.15.46:946][115]LogFileHelpers: Saving Package: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Specular
+[2026.10.20-15.15.46:946][115]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Specular] ([1] browsable assets)...
+[2026.10.20-15.15.46:946][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Specular]
+[2026.10.20-15.15.46:953][115]LogSavePackage: Moving output files for package: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Specular
+[2026.10.20-15.15.46:953][115]LogSavePackage: Moving '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Saved/Wall_Paint_qj2luvs0_4K_Specular1949CF6B4C6B6EDBC2D62189F0FA5E1A.tmp' to '../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Content/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Specular.uasset'
+[2026.10.20-15.15.46:963][115]LogFileHelpers: InternalPromptForCheckoutAndSave took 206.291 ms (total: 12.5 sec)
+[2026.10.20-15.15.47:068][115]LogStall: Shutdown...
+[2026.10.20-15.15.47:072][115]LogStall: Shutdown complete.
+[2026.10.20-15.15.47:185][115]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.10.20-15.15.47:186][115]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2026.10.20-15.15.47:186][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.20-15.15.47:527][115]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.10.20-15.15.47:527][115]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2026.10.20-15.15.47:527][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.20-15.15.47:665][115]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.10.20-15.15.47:665][115]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2026.10.20-15.15.47:666][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.20-15.15.47:779][115]LogSlate: Window 'Pushing_Paul - Unreal Editor' being destroyed
+[2026.10.20-15.15.48:312][115]LogContentValidation: Enabled validators:
+[2026.10.20-15.15.48:312][115]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.20-15.15.48:312][115]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.10.20-15.15.48:312][115]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.20-15.15.48:312][115]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.20-15.15.48:312][115]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.20-15.15.48:312][115]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.20-15.15.48:312][115]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.20-15.15.48:312][115]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.20-15.15.48:312][115]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.20-15.15.48:312][115]LogContentValidation: Display: Starting to validate 10 assets (7 associated objects such as actors)
+[2026.10.20-15.15.48:312][115]LogContentValidation: Additional assets added for validation by 0 validators:
+[2026.10.20-15.15.48:313][115]AssetCheck: /Game/Levels/Level_Blockout Validating asset
+[2026.10.20-15.15.48:313][115]AssetCheck: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_AO Validating asset
+[2026.10.20-15.15.48:313][115]AssetCheck: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_BaseColor Validating asset
+[2026.10.20-15.15.48:313][115]AssetCheck: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Bump Validating asset
+[2026.10.20-15.15.48:313][115]AssetCheck: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Cavity Validating asset
+[2026.10.20-15.15.48:313][115]AssetCheck: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Displacement Validating asset
+[2026.10.20-15.15.48:313][115]AssetCheck: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Gloss Validating asset
+[2026.10.20-15.15.48:313][115]AssetCheck: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Normal Validating asset
+[2026.10.20-15.15.48:313][115]AssetCheck: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Roughness Validating asset
+[2026.10.20-15.15.48:313][115]AssetCheck: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_qj2luvs0_4K_Specular Validating asset
+[2026.10.20-15.15.48:313][115]LogContentValidation: Validated asset counts for 9 validators:
+[2026.10.20-15.15.48:313][115]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.10.20-15.15.48:313][115]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.10.20-15.15.48:313][115]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 10
+[2026.10.20-15.15.48:313][115]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.10.20-15.15.48:313][115]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.10.20-15.15.48:313][115]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.10.20-15.15.48:313][115]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.10.20-15.15.48:313][115]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.10.20-15.15.48:313][115]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.10.20-15.15.48:416][115]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.10.20-15.15.48:466][115]Cmd: QUIT_EDITOR
+[2026.10.20-15.15.48:466][115]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2026.10.20-15.15.48:469][115]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/B00988831/Documents/GitHub/Pushing_Paul/Pushing_Paul/Saved/SourceControl/UncontrolledChangelists.json
+[2026.10.20-15.15.48:479][116]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.10.20-15.15.48:479][116]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.10.20-15.15.48:479][116]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.10.20-15.15.48:485][116]LogWorld: UWorld::CleanupWorld for Level_Blockout, bSessionEnded=true, bCleanupResources=true
+[2026.10.20-15.15.48:490][116]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2026.10.20-15.15.48:493][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.20-15.15.48:493][116]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/Level_Blockout.Level_Blockout
+[2026.10.20-15.15.48:493][116]LogMovieScene: USequencerBakeSubsystem subsystem deinitialized.
+[2026.10.20-15.15.48:513][116]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2026.10.20-15.15.48:537][116]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.10.20-15.15.48:556][116]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2026.10.20-15.15.48:556][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.20-15.15.48:560][116]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2026.10.20-15.15.48:560][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.20-15.15.48:564][116]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2026.10.20-15.15.48:564][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.20-15.15.48:566][116]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2026.10.20-15.15.48:567][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.20-15.15.48:568][116]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2026.10.20-15.15.48:568][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.20-15.15.48:573][116]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.10.20-15.15.48:580][116]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2026.10.20-15.15.49:025][116]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerWasapi)...
+[2026.10.20-15.15.49:025][116]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.10.20-15.15.49:025][116]LogAudio: Display: Audio Device unregistered from world 'Level_Blockout'.
+[2026.10.20-15.15.49:025][116]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.10.20-15.15.49:025][116]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=1, StreamState=4
+[2026.10.20-15.15.49:033][116]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.10.20-15.15.49:045][116]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.10.20-15.15.49:045][116]LogAudio: Display: Audio Device Manager Shutdown
+[2026.10.20-15.15.49:059][116]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.10.20-15.15.49:061][116]LogExit: Preparing to exit.
+[2026.10.20-15.15.49:317][116]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2026.10.20-15.15.49:326][116]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.10.20-15.15.49:707][116]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+[2026.10.20-15.15.49:708][116]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 0 total binaries, 0 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.10.20-15.15.49:711][116]LogEditorDataStorage: Deinitializing
+[2026.10.20-15.15.49:713][116]LogEditorDataStorage: De-initializing TEDS Compatibility.
+[2026.10.20-15.15.49:713][116]LogEditorDataStorage: De-initialized TEDS Compatibility.
+[2026.10.20-15.15.49:713][116]LogEditorDataStorage: De-initializing TEDS Core.
+[2026.10.20-15.15.49:713][116]LogEditorDataStorage: Resetting TEDS Core.
+[2026.10.20-15.15.49:722][116]LogEditorDataStorage: Reset TEDS Core.
+[2026.10.20-15.15.49:722][116]LogEditorDataStorage: De-initialized TEDS Core.
+[2026.10.20-15.15.49:880][116]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.10.20-15.15.49:919][116]LogExit: Editor shut down
+[2026.10.20-15.15.49:923][116]LogExit: Transaction tracking system shut down
+[2026.10.20-15.15.50:088][116]LogEditorDataStorage: Destroyed TEDS Core.
+[2026.10.20-15.15.50:088][116]LogEditorDataStorage: Destroyed TEDS Compatibility.
+[2026.10.20-15.15.50:095][116]LogEditorDataStorage: Destroyed TEDS Core.
+[2026.10.20-15.15.50:095][116]LogEditorDataStorage: Destroyed TEDS Compatibility.
+[2026.10.20-15.15.50:297][116]LogExit: Object subsystem successfully closed.
+[2026.10.20-15.15.50:360][116]LogShaderCompilers: Display: Exiting ShaderCompilingThread
+[2026.10.20-15.15.50:784][116]LogObjectProfiler: Shutdown
+[2026.10.20-15.15.50:784][116]LogMemoryProfiler: Shutdown
+[2026.10.20-15.15.50:784][116]LogNetworkingProfiler: Shutdown
+[2026.10.20-15.15.50:784][116]LogLoadingProfiler: Shutdown
+[2026.10.20-15.15.50:784][116]LogTimingProfiler: Shutdown
+[2026.10.20-15.15.50:785][116]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.10.20-15.15.50:785][116]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.10.20-15.15.50:786][116]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDCameraTracesExtension] ...
+[2026.10.20-15.15.50:786][116]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDParticleExtraDataExtension] ...
+[2026.10.20-15.15.50:786][116]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FPerformanceMetricsExtension] ...
+[2026.10.20-15.15.51:254][116]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.10.20-15.15.51:255][116]LogNFORDenoise: NFORDenoise function shutting down
+[2026.10.20-15.15.51:255][116]RenderDocPlugin: plugin has been unloaded.
+[2026.10.20-15.15.51:264][116]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2026.10.20-15.15.51:264][116]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B65350431-41D4-F14B-EC6F-D9939A3AFF59%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.8.3-58210709%2B%2B%2BUE5%2BRelease-5.8&UserID=e7d5faca6e8344ae9b45d810dba98875%7C12780d076b5e43438ec59329b4a18035%7Ca7068d6a-ccc2-4548-a587-75bf9036c355&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2026.10.20-15.15.51:829][116]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2026.10.20-15.15.51:830][116]LogXGEController: Cleaning working directory: C:/Users/B00988831/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2026.10.20-15.15.51:833][116]LogPakFile: Destroying PakPlatformFile
+[2026.10.20-15.15.52:166][116]LogD3D12RHI: ~FD3D12DynamicRHI
+[2026.10.20-15.15.52:275][116]LogExit: Exiting.
+[2026.10.20-15.15.52:312][116]Log file closed, 10/20/26 16:15:52
