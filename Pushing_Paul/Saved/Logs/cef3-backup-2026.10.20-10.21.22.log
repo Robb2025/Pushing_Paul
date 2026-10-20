@@ -1,0 +1,34 @@
+[20144:12804:1020/111358.065:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[20144:6032:1020/111358.258:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[20144:12804:1020/111358.338:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[20144:19212:1020/111531.870:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,10]
+[20144:12804:1020/111532.294:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,10]
+[20144:12804:1020/111532.294:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,10]
+[20144:12804:1020/111532.294:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,10]
+[20144:12804:1020/111532.295:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,10]
+[20144:12804:1020/111532.295:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,13]
+[20144:12804:1020/111532.295:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,13]
+[20144:12804:1020/111532.295:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,13]
+[20144:12804:1020/111532.295:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,13]
+[20144:12804:1020/111533.304:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.audio_input.user_preference_ranking because media.default_audio_capture_device isn't registered or is empty
+[20144:12804:1020/111533.304:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.video_input.user_preference_ranking because media.default_video_capture_Device isn't registered or is empty
+[20144:12804:1020/111548.884:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,20]
+[20144:12804:1020/111548.884:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,20]
+[20144:12804:1020/111548.884:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,20]
+[20144:12804:1020/111548.884:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,20]
+[20144:12804:1020/111548.885:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,23]
+[20144:12804:1020/111548.885:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,23]
+[20144:12804:1020/111548.885:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,23]
+[20144:12804:1020/111548.885:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,23]
+[20144:12804:1020/111549.142:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.audio_input.user_preference_ranking because media.default_audio_capture_device isn't registered or is empty
+[20144:12804:1020/111549.142:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.video_input.user_preference_ranking because media.default_video_capture_Device isn't registered or is empty
+[13308:32616:1020/111639.537:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[13308:32616:1020/111639.537:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[13308:32616:1020/111639.537:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[13308:32616:1020/111639.539:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[13308:32616:1020/111639.539:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[13308:32616:1020/111639.539:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[13308:32616:1020/111639.539:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[32424:35780:1020/111643.640:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+[35588:35584:1020/112048.800:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame F-D8A0C7742DC8932132CE01F0FCD3857C will be ignored
+[20144:12804:1020/112122.928:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
