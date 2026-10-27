@@ -1,6 +1,44 @@
-[18408:31824:1020/112551.800:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[18408:21920:1020/112551.834:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
-[18408:31824:1020/112551.842:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[18408:31824:1020/140330.816:ERROR:device_event_log_impl.cc(196)] [14:03:30.706] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
-[18408:31824:1020/140844.930:ERROR:device_event_log_impl.cc(196)] [14:08:44.916] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
-[18408:31824:1020/161550.580:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[6108:11092:1027/121200.325:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[6108:26076:1027/121200.514:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[6108:11092:1027/121200.585:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[6108:30848:1027/121236.804:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,10]
+[6108:11092:1027/121236.917:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,10]
+[6108:11092:1027/121236.917:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,10]
+[6108:11092:1027/121236.917:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,10]
+[6108:11092:1027/121236.917:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,10]
+[6108:11092:1027/121236.917:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,13]
+[6108:11092:1027/121236.917:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,13]
+[6108:11092:1027/121236.917:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,13]
+[6108:11092:1027/121236.917:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,13]
+[6108:11092:1027/121238.000:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.audio_input.user_preference_ranking because media.default_audio_capture_device isn't registered or is empty
+[6108:11092:1027/121238.000:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.video_input.user_preference_ranking because media.default_video_capture_Device isn't registered or is empty
+[6108:30848:1027/121307.052:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,20]
+[6108:11092:1027/121307.058:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,20]
+[6108:11092:1027/121307.058:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,20]
+[6108:11092:1027/121307.058:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,20]
+[6108:11092:1027/121307.058:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,20]
+[6108:11092:1027/121307.059:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,23]
+[6108:11092:1027/121307.059:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,23]
+[6108:11092:1027/121307.059:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,23]
+[6108:11092:1027/121307.059:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,23]
+[6108:11092:1027/121307.290:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.audio_input.user_preference_ranking because media.default_audio_capture_device isn't registered or is empty
+[6108:11092:1027/121307.290:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.video_input.user_preference_ranking because media.default_video_capture_Device isn't registered or is empty
+[6108:11092:1027/121322.657:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,30]
+[6108:11092:1027/121322.658:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,30]
+[6108:11092:1027/121322.658:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,30]
+[6108:11092:1027/121322.658:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,30]
+[6108:11092:1027/121322.658:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,33]
+[6108:11092:1027/121322.658:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,33]
+[6108:11092:1027/121322.658:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,33]
+[6108:11092:1027/121322.658:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,33]
+[6108:11092:1027/121322.893:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.audio_input.user_preference_ranking because media.default_audio_capture_device isn't registered or is empty
+[6108:11092:1027/121322.893:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.video_input.user_preference_ranking because media.default_video_capture_Device isn't registered or is empty
+[4132:34756:1027/121404.768:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[4132:34756:1027/121404.769:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[4132:34756:1027/121404.769:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[4132:34756:1027/121404.769:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[4132:34756:1027/121404.770:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[4132:34756:1027/121404.770:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[4132:34756:1027/121404.770:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[16396:30184:1027/121405.161:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+[6108:11092:1027/130206.315:ERROR:device_event_log_impl.cc(196)] [13:02:06.034] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
