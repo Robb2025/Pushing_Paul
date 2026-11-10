@@ -24,3 +24,5 @@
 [23900:1772:1110/115427.770:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.video_input.user_preference_ranking because media.default_video_capture_Device isn't registered or is empty
 [2972:32148:1110/115520.091:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
 [23460:20432:1110/115520.104:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 5
+[23900:1772:1110/133957.964:ERROR:device_event_log_impl.cc(196)] [13:39:57.871] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[23900:1772:1110/140045.580:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

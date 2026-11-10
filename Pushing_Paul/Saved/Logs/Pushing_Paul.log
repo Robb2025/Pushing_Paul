@@ -8752,3 +8752,632 @@ Script call stack:
 [2026.11.10-12.30.31:174][493]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
 [2026.11.10-12.30.31:174][493]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
 [2026.11.10-12.30.31:174][493]LogShaderCompilers: Display: ================================================
+[2026.11.10-12.32.46:506][195]LogAudioMixerWasapi: Warning: FWasapiDefaultRenderStream: device lost in GetCurrentPadding (HRESULT=0x88890004). Requesting swap.
+[2026.11.10-12.32.46:524][195]LogAudioMixer: Display: FAudioMixerWasapi: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2026.11.10-12.32.46:524][195]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{b0587c0c-ab2d-45c9-bc16-013f0ff90ed9}', because: 'FAudioMixerWasapi::OnDefaultRenderDeviceChanged', force=1
+[2026.11.10-12.32.46:823][195]LogAudioMixer: Display: FAudioMixerWasapi::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{b0587c0c-ab2d-45c9-bc16-013f0ff90ed9}]
+[2026.11.10-12.32.46:823][195]LogAudioMixer: Display: FAudioMixerWasapi::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.11.10-12.32.46:823][195]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - Start. Because=FAudioMixerWasapi::OnDefaultRenderDeviceChanged
+[2026.11.10-12.32.46:828][195]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - successfully shut down previous device manager
+[2026.11.10-12.32.46:911][196]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.11.10-12.32.47:523][198]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.11.10-12.32.47:523][198]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.11.10-12.32.47:523][198]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - successfully completed device swap
+[2026.11.10-12.32.47:813][198]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node 96761E6F43F79EEF7EAB89BFA7B536FA (172.17.122.23:55306)
+[2026.11.10-12.32.47:823][198]LogAudioMixer: Display: SignalStopGeneratingAudio() called, InstanceID=1
+[2026.11.10-12.32.48:157][199]LogAudioMixer: Display: FAudioMixerWasapi::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{b0587c0c-ab2d-45c9-bc16-013f0ff90ed9}, Name=Speakers (Realtek(R) Audio)), Reason=FAudioMixerWasapi::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=699.48
+[2026.11.10-12.32.48:157][199]LogAudioMixer: Display: FAudioMixerPlatformSwappable::ResumePlaybackOnNewDevice - resuming audio on new device: 'Speakers (Realtek(R) Audio)'
+[2026.11.10-12.32.48:157][199]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.11.10-12.32.48:161][199]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.11.10-12.33.42:282][362]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node 14E29CAA434BF27DDBD9A4B780857934 (172.17.122.153:55071)
+[2026.11.10-12.34.05:222][431]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node DB73643544A80FF23091BB865F5B2704 (172.17.122.183:55868)
+[2026.11.10-12.34.14:907][459]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2026.11.10-12.34.14:915][459]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Level_Blockout' took 0.045
+[2026.11.10-12.34.14:915][459]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Objects/Materials/Imports/Ceiling/Ceiling] ([1] browsable assets)...
+[2026.11.10-12.34.15:113][459]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Objects/Materials/Imports/Ceiling/Ceiling.Ceiling]
+[2026.11.10-12.34.15:113][459]OBJ SavePackage: Finished generating thumbnails for package [/Game/Objects/Materials/Imports/Ceiling/Ceiling]
+[2026.11.10-12.34.15:127][459]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Objects/Materials/Imports/Ceiling/Ceiling_Auto0
+[2026.11.10-12.34.15:127][459]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Ceiling_Auto0EC18423E426196EDD1CEC0B54B4302BE.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/Objects/Materials/Imports/Ceiling/Ceiling_Auto0.uasset'
+[2026.11.10-12.34.15:128][459]LogFileHelpers: Auto-saving content packages took 0.214
+[2026.11.10-12.34.16:595][465]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node D9166C724298F9B6FA713184E9BAC677 (172.17.122.208:50002)
+[2026.11.10-12.34.23:462][485]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node C22DF78146ADA6AB8C8E888DDB8E0643 (172.17.122.185:59270)
+[2026.11.10-12.34.40:552][537]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node A220D7D64E3137157E6553A0D02F4EF1 (172.17.122.124:54497)
+[2026.11.10-12.35.49:509][743]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9146.986328
+[2026.11.10-12.35.50:509][746]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.10-12.35.50:509][746]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9147.653320, Update Interval: 343.151947
+[2026.11.10-13.38.30:960][ 73]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node 3B1655C5437D5301D494BD9ACB1EECD7 (172.17.122.127:54279)
+[2026.11.10-13.38.30:960][ 73]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node 5FB692A4415C0B2262A495BC24544E77 (172.17.122.151:55475)
+[2026.11.10-13.38.30:966][ 73]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node 44C388DB44985F8024823AB290BF32CA (172.17.122.149:52880)
+[2026.11.10-13.38.30:967][ 73]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node C8E42B2847F083893C1EB7B53B971EC6 (172.17.123.55:58665)
+[2026.11.10-13.38.30:967][ 73]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node A220D7D64E3137157E6553A0D02F4EF1 (172.17.122.124:54497)
+[2026.11.10-13.38.30:977][ 74]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node 14AA8532407F22FB18820C8297C7F96D (172.17.123.128:61177)
+[2026.11.10-13.38.30:984][ 74]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node 96761E6F43F79EEF7EAB89BFA7B536FA (172.17.122.23:55306)
+[2026.11.10-13.38.30:984][ 74]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node 592289EF419B28CB5227E2B6D73D5513 (172.17.123.77:54324)
+[2026.11.10-13.39.57:277][ 81]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12994.757812
+[2026.11.10-13.39.57:679][ 84]LogAudioMixer: Display: FAudioMixerWasapi: Changing default audio render device to new device: Role=Console, DeviceName=DELL S2722QC (NVIDIA High Definition Audio), InstanceID=1
+[2026.11.10-13.39.57:679][ 84]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{79528c83-e15e-409a-b739-c238165714ae}', because: 'FAudioMixerWasapi::OnDefaultRenderDeviceChanged', force=1
+[2026.11.10-13.39.57:952][ 84]LogAudioMixer: Display: FAudioMixerWasapi::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{79528c83-e15e-409a-b739-c238165714ae}]
+[2026.11.10-13.39.57:952][ 84]LogAudioMixer: Display: FAudioMixerWasapi::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.11.10-13.39.57:952][ 84]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - Start. Because=FAudioMixerWasapi::OnDefaultRenderDeviceChanged
+[2026.11.10-13.39.57:963][ 84]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.10-13.39.57:963][ 84]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12995.110352, Update Interval: 353.169952
+[2026.11.10-13.39.57:969][ 85]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - successfully shut down previous device manager
+[2026.11.10-13.39.57:970][ 85]LogAudioMixerWasapi: FAudioMixerWasapiRenderStream::InitializeHardware DefaultDevicePeriod: 480 requesting buffer size: 1920
+[2026.11.10-13.39.57:989][ 85]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware audio mixer requested num channels: 2, Wasapi render stream hardware supports num channels: 2
+[2026.11.10-13.39.57:989][ 85]LogAudioMixerWasapi: Display: FAudioMixerWasapiRenderStream::InitializeHardware succeeded with sample rate: 48000, buffer period: 1024
+[2026.11.10-13.39.57:990][ 85]LogAudioMixer: Display: FAudioMixerWasapi::PerformDeviceSwap - successfully completed device swap
+[2026.11.10-13.39.58:286][ 85]LogAudioMixer: Display: SignalStopGeneratingAudio() called, InstanceID=1
+[2026.11.10-13.39.58:619][ 86]LogAudioMixer: Display: FAudioMixerWasapi::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{79528c83-e15e-409a-b739-c238165714ae}, Name=DELL S2722QC (NVIDIA High Definition Audio)), Reason=FAudioMixerWasapi::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=38.07
+[2026.11.10-13.39.58:619][ 86]LogAudioMixer: Display: FAudioMixerPlatformSwappable::ResumePlaybackOnNewDevice - resuming audio on new device: 'DELL S2722QC (NVIDIA High Definition Audio)'
+[2026.11.10-13.39.58:619][ 86]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.11.10-13.39.58:622][ 86]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.11.10-13.41.26:256][837]LogShaderCompilers: Display: ================================================
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: Total job queries 22,606, among them cache hits 3,133 (13.86%), DDC hits 7,978 (35.29%), Duplicates 3,390 (15.00%)
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: Tracking 15,290 distinct input hashes that result in 13,891 distinct outputs (90.85%)
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: RAM used: 201.27 MiB of 1.60 GiB budget. Usage: 12.28%
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: Shaders Compiled: 8,278
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: Jobs assigned 8,278, completed 8,278 (100%)
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: Average time worker was idle: 63.03 s
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: Time job spent in pending queue: average 81.46 s, longest 186.80 s
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: Job execution time: average 2.91 s, max 57.13 s
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: Job life time (pending + execution): average 84.37 s, max 187.03
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: Shader code size: total 178.423 MiB, numShaders 8,344, average 21.896 KiB, min 1.199 KiB, max 360.525 KiB
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 353.54 s
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: Jobs were issued in 2,420 batches (only local compilation was used), average 3.42 jobs/batch
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: Average processing rate: 23.41 jobs/sec
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: Total thread time: 2,893.393 s
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: Total thread preprocess time: 280.031 s
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: Percentage time preprocessing: 9.68%
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: Effective parallelization: 8.18 (times faster than compiling all shaders on one thread). Compare with number of workers: 12 - 0.681997
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled    9 times, average 5.81 sec, max 9.06 sec, min 2.49 sec)
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display:                                               FPathTracingRG (compiled   24 times, average 5.72 sec, max 9.67 sec, min 4.57 sec)
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display:                          FPathTracingVolumetricCloudMaterial (compiled    1 times, average 2.13 sec, max 2.13 sec, min 2.13 sec)
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    1 times, average 1.71 sec, max 1.71 sec, min 1.71 sec)
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display:                                        FCloudRenderViewPS111 (compiled    1 times, average 1.67 sec, max 1.67 sec, min 1.67 sec)
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 11.54% of total time (compiled  460 times, average 0.73 sec, max 1.65 sec, min 0.00 sec)
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 11.30% of total time (compiled  216 times, average 1.51 sec, max 3.05 sec, min 0.42 sec)
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display:                                         FShadeLightSamplesCS - 6.31% of total time (compiled  432 times, average 0.42 sec, max 0.77 sec, min 0.16 sec)
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display:                                             FDeferredLightPS - 5.67% of total time (compiled  472 times, average 0.35 sec, max 0.71 sec, min 0.09 sec)
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display:                                               FPathTracingRG - 4.74% of total time (compiled   24 times, average 5.72 sec, max 9.67 sec, min 4.57 sec)
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: === Material stats ===
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: Materials Translated:    567
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: Material Total Translate Time: 0.30 s
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: Material Translation Only: 0.17 s (56%)
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.11.10-13.41.26:257][837]LogShaderCompilers: Display: ================================================
+[2026.11.10-13.41.35:161][348]LogMaterialEditor: Applying material Ceiling
+[2026.11.10-13.41.37:091][348]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2026.11.10-13.41.39:098][348]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2026.11.10-13.41.52:731][248]LogMaterialEditor: Applying material Ceiling
+[2026.11.10-13.41.52:884][248]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2026.11.10-13.41.55:178][248]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2026.11.10-13.42.17:568][773]LogMaterialEditor: Applying material Ceiling
+[2026.11.10-13.42.17:730][773]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2026.11.10-13.42.19:934][773]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.11.10-13.42.26:337][176]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node 184F3F334023186E38A454A9A4BA157A (172.17.122.185:56191)
+[2026.11.10-13.42.26:847][207]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node 7AEA4C9B4D798E9FF25FFAA9251A9550 (172.17.122.185:56192)
+[2026.11.10-13.44.19:138][175]LogSlate: Display: Synchronously lazy loading font file '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' with subface index 0 in Render thread.
+[2026.11.10-13.44.19:138][175]LogSlate: Display: Took 0.007359 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K) on Render thread.
+[2026.11.10-13.44.19:138][175]LogSlate: Display: Freetype font face in memory successfully created with synchronously loaded raw font file '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' subface 0 in Render thread.
+[2026.11.10-13.44.19:138][175]LogSlate: Display: Font face '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' subface index 0 successfully added to font face map in Render thread.
+[2026.11.10-13.44.26:264][670]LogShaderCompilers: Display: ================================================
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: Total job queries 22,848, among them cache hits 3,167 (13.86%), DDC hits 7,978 (34.92%), Duplicates 3,423 (14.98%)
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: Tracking 15,392 distinct input hashes that result in 13,916 distinct outputs (90.41%)
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: RAM used: 201.71 MiB of 1.60 GiB budget. Usage: 12.31%
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: Shaders Compiled: 8,453
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: Jobs assigned 8,453, completed 8,453 (100%)
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: Average time worker was idle: 60.71 s
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: Time job spent in pending queue: average 79.78 s, longest 186.80 s
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: Job execution time: average 2.86 s, max 57.13 s
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: Job life time (pending + execution): average 82.64 s, max 187.03
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: Shader code size: total 180.134 MiB, numShaders 8,527, average 21.632 KiB, min 1.199 KiB, max 360.525 KiB
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 363.12 s
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: Jobs were issued in 2,595 batches (only local compilation was used), average 3.26 jobs/batch
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: Average processing rate: 23.28 jobs/sec
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: Total thread time: 2,960.322 s
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: Total thread preprocess time: 284.585 s
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: Percentage time preprocessing: 9.61%
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: Effective parallelization: 8.15 (times faster than compiling all shaders on one thread). Compare with number of workers: 12 - 0.679373
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled    9 times, average 5.81 sec, max 9.06 sec, min 2.49 sec)
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display:                                               FPathTracingRG (compiled   24 times, average 5.72 sec, max 9.67 sec, min 4.57 sec)
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display:                          FPathTracingVolumetricCloudMaterial (compiled    1 times, average 2.13 sec, max 2.13 sec, min 2.13 sec)
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    1 times, average 1.71 sec, max 1.71 sec, min 1.71 sec)
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display:                                        FCloudRenderViewPS111 (compiled    1 times, average 1.67 sec, max 1.67 sec, min 1.67 sec)
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 11.82% of total time (compiled  475 times, average 0.74 sec, max 1.65 sec, min 0.00 sec)
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 11.04% of total time (compiled  216 times, average 1.51 sec, max 3.05 sec, min 0.42 sec)
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display:                                         FShadeLightSamplesCS - 6.17% of total time (compiled  432 times, average 0.42 sec, max 0.77 sec, min 0.16 sec)
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display:                                             FDeferredLightPS - 5.54% of total time (compiled  472 times, average 0.35 sec, max 0.71 sec, min 0.09 sec)
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display:                                               FPathTracingRG - 4.64% of total time (compiled   24 times, average 5.72 sec, max 9.67 sec, min 4.57 sec)
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: === Material stats ===
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: Materials Translated:    583
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: Material Total Translate Time: 0.30 s
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: Material Translation Only: 0.17 s (57%)
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.11.10-13.44.26:265][670]LogShaderCompilers: Display: ================================================
+[2026.11.10-13.44.45:971][994]Cmd: DUPLICATE
+[2026.11.10-13.44.45:971][994]Cmd: ACTOR DUPLICATE
+[2026.11.10-13.46.31:685][956]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13389.089844
+[2026.11.10-13.46.32:685][959]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.10-13.46.32:685][959]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13389.757812, Update Interval: 308.318726
+[2026.11.10-13.46.44:495][269]LogMaterial: Display: Material /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint.Wall_Paint needed to set usage flag Nanite
+[2026.11.10-13.47.11:864][999]Cmd: DELETE
+[2026.11.10-13.47.11:864][999]Cmd: ACTOR DELETE
+[2026.11.10-13.47.11:868][999]LogEditorActor: Deleted Actor: PointLight
+[2026.11.10-13.47.11:903][999]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2026.11.10-13.47.11:908][999]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2026.11.10-13.47.16:191][265]Cmd: DELETE
+[2026.11.10-13.47.16:191][265]Cmd: ACTOR DELETE
+[2026.11.10-13.47.16:194][265]LogEditorActor: Deleted Actor: PointLight
+[2026.11.10-13.47.16:224][265]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2026.11.10-13.47.16:229][265]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2026.11.10-13.47.51:917][724]Cmd: DELETE
+[2026.11.10-13.47.51:917][724]Cmd: ACTOR DELETE
+[2026.11.10-13.47.51:921][724]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.11.10-13.47.51:955][724]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.11.10-13.47.51:961][724]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2026.11.10-13.49.26:101][483]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node 58965C8040EAC73A133EF29305C5C67C (172.17.122.183:51853)
+[2026.11.10-13.49.26:201][489]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node DB73643544A80FF23091BB865F5B2704 (172.17.122.183:55868)
+[2026.11.10-13.49.38:825][253]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.11.10-13.50.01:721][813]Cmd: DUPLICATE
+[2026.11.10-13.50.01:721][813]Cmd: ACTOR DUPLICATE
+[2026.11.10-13.52.13:912][815]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13731.250000
+[2026.11.10-13.52.14:913][818]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.10-13.52.14:913][818]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13731.919922, Update Interval: 318.336731
+[2026.11.10-13.52.34:322][876]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2026.11.10-13.52.34:338][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/1/MM/LAD76WV4U8ZVECH0KNRJLD_Auto1
+[2026.11.10-13.52.34:339][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/LAD76WV4U8ZVECH0KNRJLD_Auto1941B5BDB4C230D255A90CFA46238FD99.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/1/MM/LAD76WV4U8ZVECH0KNRJLD_Auto1.uasset'
+[2026.11.10-13.52.34:349][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/2/LD/YCLW2DKVN9O6BFS4LGGOBC_Auto1
+[2026.11.10-13.52.34:350][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/YCLW2DKVN9O6BFS4LGGOBC_Auto1C95411E1496CA2F24FFFC9AB14F70779.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/2/LD/YCLW2DKVN9O6BFS4LGGOBC_Auto1.uasset'
+[2026.11.10-13.52.34:361][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/2/YO/8ICWHWYQRIIF735IHPM645_Auto1
+[2026.11.10-13.52.34:361][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/8ICWHWYQRIIF735IHPM645_Auto15538197A4B05B03AE0DE2D9ADF6A9A99.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/2/YO/8ICWHWYQRIIF735IHPM645_Auto1.uasset'
+[2026.11.10-13.52.34:370][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/3/ZD/5SKX6N9DLTGF9SK6HVZFB6_Auto1
+[2026.11.10-13.52.34:370][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/5SKX6N9DLTGF9SK6HVZFB6_Auto15B539BF44C2ED29470849BBB7D585210.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/3/ZD/5SKX6N9DLTGF9SK6HVZFB6_Auto1.uasset'
+[2026.11.10-13.52.34:381][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/4/E5/DUUA3NXGM2RN80R1JIWBUW_Auto1
+[2026.11.10-13.52.34:381][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/DUUA3NXGM2RN80R1JIWBUW_Auto15A3E9B054C535032139DD8AE56B476BA.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/4/E5/DUUA3NXGM2RN80R1JIWBUW_Auto1.uasset'
+[2026.11.10-13.52.34:390][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/4/C7/QTVWY5SGO5OMP3YDLC9UUB_Auto1
+[2026.11.10-13.52.34:390][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/QTVWY5SGO5OMP3YDLC9UUB_Auto1838C70044434835D5E67A88554C27471.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/4/C7/QTVWY5SGO5OMP3YDLC9UUB_Auto1.uasset'
+[2026.11.10-13.52.34:400][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/6/6F/7UKGZDM0RDI8KTPN2ITYFU_Auto1
+[2026.11.10-13.52.34:401][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/7UKGZDM0RDI8KTPN2ITYFU_Auto108EE465B476BC46D358A748D899D0D65.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/6/6F/7UKGZDM0RDI8KTPN2ITYFU_Auto1.uasset'
+[2026.11.10-13.52.34:410][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/6/85/IMN5TA8ZR8JFTPLHOVRGBF_Auto1
+[2026.11.10-13.52.34:410][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/IMN5TA8ZR8JFTPLHOVRGBF_Auto1DC0097C1411E6D7386D0B9B366DC6337.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/6/85/IMN5TA8ZR8JFTPLHOVRGBF_Auto1.uasset'
+[2026.11.10-13.52.34:420][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/7/57/PVNL7B35OW4OGLDMES56OP_Auto1
+[2026.11.10-13.52.34:420][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/PVNL7B35OW4OGLDMES56OP_Auto1AE2879D94B6133F1F79CB6B097C2C32B.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/7/57/PVNL7B35OW4OGLDMES56OP_Auto1.uasset'
+[2026.11.10-13.52.34:429][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/7/Q3/9ISHARLO0ESCZ7HOFUE6JC_Auto1
+[2026.11.10-13.52.34:430][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/9ISHARLO0ESCZ7HOFUE6JC_Auto1A1008CE246BA999D53AEBCAF2B040210.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/7/Q3/9ISHARLO0ESCZ7HOFUE6JC_Auto1.uasset'
+[2026.11.10-13.52.34:440][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/7/RV/FMMX5HNSZMRYL5IIJW28BC_Auto1
+[2026.11.10-13.52.34:440][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/FMMX5HNSZMRYL5IIJW28BC_Auto101B60C1E4D759F6F70B8549197CFE520.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/7/RV/FMMX5HNSZMRYL5IIJW28BC_Auto1.uasset'
+[2026.11.10-13.52.34:450][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/7/TA/OM9NVIKMB7KIIFAX3SMT0D_Auto1
+[2026.11.10-13.52.34:450][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/OM9NVIKMB7KIIFAX3SMT0D_Auto1D7DE634345F41B404C01A7A273D9CD47.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/7/TA/OM9NVIKMB7KIIFAX3SMT0D_Auto1.uasset'
+[2026.11.10-13.52.34:461][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/9/GS/CFDSVPCYI2W6NCNSEN7O2S_Auto1
+[2026.11.10-13.52.34:462][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/CFDSVPCYI2W6NCNSEN7O2S_Auto191A6CD904CE36DCC8ABEA489D709E577.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/9/GS/CFDSVPCYI2W6NCNSEN7O2S_Auto1.uasset'
+[2026.11.10-13.52.34:472][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/9/J7/5ZXFF5CY9D50AF21OY6JIC_Auto1
+[2026.11.10-13.52.34:473][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/5ZXFF5CY9D50AF21OY6JIC_Auto1544213204793104029AEE09B95042AFC.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/9/J7/5ZXFF5CY9D50AF21OY6JIC_Auto1.uasset'
+[2026.11.10-13.52.34:484][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/9/RI/5HL3VXYIR143V69UK0DDLK_Auto1
+[2026.11.10-13.52.34:485][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/5HL3VXYIR143V69UK0DDLK_Auto1CD98F10C46C99F60ED7EA1BFF4346F86.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/9/RI/5HL3VXYIR143V69UK0DDLK_Auto1.uasset'
+[2026.11.10-13.52.34:497][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/B/E9/5832Q55EEASAHDIQOAY97Z_Auto1
+[2026.11.10-13.52.34:498][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/5832Q55EEASAHDIQOAY97Z_Auto13B2845C94B607033AF23EA93BCD9260A.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/B/E9/5832Q55EEASAHDIQOAY97Z_Auto1.uasset'
+[2026.11.10-13.52.34:508][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/B/WP/T0RH1R6ATW1OF0VK7FV62R_Auto1
+[2026.11.10-13.52.34:509][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/T0RH1R6ATW1OF0VK7FV62R_Auto1BC5FD075459ADE619CCF249140A82CEA.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/B/WP/T0RH1R6ATW1OF0VK7FV62R_Auto1.uasset'
+[2026.11.10-13.52.34:519][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/C/2C/OZ39YDO4CXOSA6WD7AGZS0_Auto1
+[2026.11.10-13.52.34:519][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/OZ39YDO4CXOSA6WD7AGZS0_Auto13C04FF74439665E675102CA0587062DA.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/C/2C/OZ39YDO4CXOSA6WD7AGZS0_Auto1.uasset'
+[2026.11.10-13.52.34:529][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/C/MN/390TXJM3ZFMJHIK6PD0QHH_Auto1
+[2026.11.10-13.52.34:529][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/390TXJM3ZFMJHIK6PD0QHH_Auto1F143A05F4115FA6C2FA2388A2EF8AE92.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/C/MN/390TXJM3ZFMJHIK6PD0QHH_Auto1.uasset'
+[2026.11.10-13.52.34:540][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/D/EY/X0ZC28KAIBWHZ1SITUEHR2_Auto1
+[2026.11.10-13.52.34:541][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/X0ZC28KAIBWHZ1SITUEHR2_Auto1825381AB42AB37AA24123B81CC623C70.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/D/EY/X0ZC28KAIBWHZ1SITUEHR2_Auto1.uasset'
+[2026.11.10-13.52.34:551][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/E/JW/U3VYY2OGVMZVC12JDTBRA3_Auto1
+[2026.11.10-13.52.34:552][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/U3VYY2OGVMZVC12JDTBRA3_Auto12AAC0A1E4913C12B909FF584269C340E.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/E/JW/U3VYY2OGVMZVC12JDTBRA3_Auto1.uasset'
+[2026.11.10-13.52.34:562][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/0/UD/57K05Z28LS9AC407V5WIXF_Auto1
+[2026.11.10-13.52.34:562][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/57K05Z28LS9AC407V5WIXF_Auto1C229AE2448E5527CE11057B24CB17E01.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/0/UD/57K05Z28LS9AC407V5WIXF_Auto1.uasset'
+[2026.11.10-13.52.34:571][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/7/RG/VVEFJCW115HLFUS2PVJD5E_Auto1
+[2026.11.10-13.52.34:571][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/VVEFJCW115HLFUS2PVJD5E_Auto19E3986574275627B8F9BF09D4D8B7557.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/7/RG/VVEFJCW115HLFUS2PVJD5E_Auto1.uasset'
+[2026.11.10-13.52.34:581][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/5/KN/YHS2DXV2UD91YLWWKGJWH5_Auto1
+[2026.11.10-13.52.34:581][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/YHS2DXV2UD91YLWWKGJWH5_Auto10BB45DEC42A92DAB8745C99AD234549E.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/5/KN/YHS2DXV2UD91YLWWKGJWH5_Auto1.uasset'
+[2026.11.10-13.52.34:590][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/0/EW/5XU9PURKA08GF5QIDGBOO2_Auto1
+[2026.11.10-13.52.34:590][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/5XU9PURKA08GF5QIDGBOO2_Auto17C0F6F724DE759D946AE679FD8076B2A.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/0/EW/5XU9PURKA08GF5QIDGBOO2_Auto1.uasset'
+[2026.11.10-13.52.34:598][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/0/SS/BUY3NCI2WCWNZT62W3W2QR_Auto1
+[2026.11.10-13.52.34:598][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/BUY3NCI2WCWNZT62W3W2QR_Auto109E9DEF642686512F1E26B961418ED00.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/0/SS/BUY3NCI2WCWNZT62W3W2QR_Auto1.uasset'
+[2026.11.10-13.52.34:608][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/C/QC/7AUVBVA7F9DDRTXVU0S2HR_Auto1
+[2026.11.10-13.52.34:608][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/7AUVBVA7F9DDRTXVU0S2HR_Auto19720EC514DDA98541E80429C5EE07324.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/C/QC/7AUVBVA7F9DDRTXVU0S2HR_Auto1.uasset'
+[2026.11.10-13.52.34:616][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/3/LL/91UOPF5ROZ4WI55G4Z6UPL_Auto1
+[2026.11.10-13.52.34:616][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/91UOPF5ROZ4WI55G4Z6UPL_Auto125FC5C3B49929819DD6C4B960DAC665D.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/__ExternalActors__/Levels/Level_Blockout/3/LL/91UOPF5ROZ4WI55G4Z6UPL_Auto1.uasset'
+[2026.11.10-13.52.34:617][876]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Level_Blockout' took 0.338
+[2026.11.10-13.52.34:617][876]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.338
+[2026.11.10-13.52.34:617][876]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Objects/Materials/Imports/Wall_paint/Wall_Paint] ([1] browsable assets)...
+[2026.11.10-13.52.34:662][876]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint.Wall_Paint]
+[2026.11.10-13.52.34:663][876]OBJ SavePackage: Finished generating thumbnails for package [/Game/Objects/Materials/Imports/Wall_paint/Wall_Paint]
+[2026.11.10-13.52.34:671][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_Auto1
+[2026.11.10-13.52.34:672][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Wall_Paint_Auto13E1832C644C37851DA85A7A1149418D0.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/Objects/Materials/Imports/Wall_paint/Wall_Paint_Auto1.uasset'
+[2026.11.10-13.52.34:673][876]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Objects/Materials/Imports/Ceiling/Ceiling] ([1] browsable assets)...
+[2026.11.10-13.52.34:680][876]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Objects/Materials/Imports/Ceiling/Ceiling.Ceiling]
+[2026.11.10-13.52.34:680][876]OBJ SavePackage: Finished generating thumbnails for package [/Game/Objects/Materials/Imports/Ceiling/Ceiling]
+[2026.11.10-13.52.34:695][876]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Objects/Materials/Imports/Ceiling/Ceiling_Auto1
+[2026.11.10-13.52.34:695][876]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Ceiling_Auto1CA3233CA4844BAAE4FC9D4B729881D1E.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Autosaves/Game/Objects/Materials/Imports/Ceiling/Ceiling_Auto1.uasset'
+[2026.11.10-13.52.34:697][876]LogFileHelpers: Auto-saving content packages took 0.079
+[2026.11.10-13.54.52:514][740]LogMaterialEditor: Saving and Compiling material Ceiling
+[2026.11.10-13.54.52:516][740]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.10-13.54.52:578][740]LogFileHelpers: Saving Package: /Game/Objects/Materials/Imports/Ceiling/Ceiling
+[2026.11.10-13.54.52:578][740]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Objects/Materials/Imports/Ceiling/Ceiling] ([1] browsable assets)...
+[2026.11.10-13.54.52:578][740]OBJ SavePackage: Finished generating thumbnails for package [/Game/Objects/Materials/Imports/Ceiling/Ceiling]
+[2026.11.10-13.54.52:588][740]LogSavePackage: Moving output files for package: /Game/Objects/Materials/Imports/Ceiling/Ceiling
+[2026.11.10-13.54.52:588][740]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/CeilingCAC15ED84A67112D3F9591A37C667F9E.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/Objects/Materials/Imports/Ceiling/Ceiling.uasset'
+[2026.11.10-13.54.52:596][740]LogFileHelpers: InternalPromptForCheckoutAndSave took 79.886 ms (total: 4.28 sec)
+[2026.11.10-13.54.52:644][740]LogContentValidation: Enabled validators:
+[2026.11.10-13.54.52:644][740]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.10-13.54.52:644][740]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.11.10-13.54.52:644][740]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.10-13.54.52:644][740]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.10-13.54.52:644][740]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.10-13.54.52:644][740]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.10-13.54.52:644][740]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.10-13.54.52:644][740]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.11.10-13.54.52:644][740]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.11.10-13.54.52:644][740]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.11.10-13.54.52:644][740]LogContentValidation: Additional assets added for validation by 0 validators:
+[2026.11.10-13.54.52:644][740]AssetCheck: /Game/Objects/Materials/Imports/Ceiling/Ceiling Validating asset
+[2026.11.10-13.54.52:644][740]LogContentValidation: Validated asset counts for 9 validators:
+[2026.11.10-13.54.52:644][740]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.11.10-13.54.52:644][740]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.11.10-13.54.52:644][740]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.11.10-13.54.52:644][740]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.11.10-13.54.52:644][740]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.11.10-13.54.52:644][740]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.11.10-13.54.52:644][740]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.11.10-13.54.52:644][740]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.11.10-13.54.52:644][740]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.11.10-13.55.07:410][606]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Objects/Imported_Objects/KitchenSink/Textures/Cabinet_MAT_BaseColo.Cabinet_MAT_BaseColo
+[2026.11.10-13.55.07:411][606]LogModuleManager: InternalLoadLibrary: 'TextureEditor' ('C:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/UnrealEditor-TextureEditor.dll')
+[2026.11.10-13.55.17:833][511]LogTexture: Display: Building texture TwoD: /Game/Objects/Imported_Objects/KitchenSink/Textures/Cabinet_MAT_BaseColo.Cabinet_MAT_BaseColo (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1120.999983 MB), EncodeSpeed: Final
+[2026.11.10-13.55.19:047][612]LogTexture: Display: Building texture TwoD: /Game/Objects/Imported_Objects/KitchenSink/Textures/Cabinet_MAT_BaseColo.Cabinet_MAT_BaseColo (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1120.999983 MB), EncodeSpeed: Final
+[2026.11.10-13.55.33:164][723]LogTexture: Display: Building texture TwoD: /Game/Objects/Imported_Objects/KitchenSink/Textures/Cabinet_MAT_BaseColo.Cabinet_MAT_BaseColo (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1120.999983 MB), EncodeSpeed: Final
+[2026.11.10-13.55.37:265][ 39]LogTexture: Display: Building texture TwoD: /Game/Objects/Imported_Objects/KitchenSink/Textures/Cabinet_MAT_BaseColo.Cabinet_MAT_BaseColo (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1120.999983 MB), EncodeSpeed: Final
+[2026.11.10-13.55.40:981][330]LogTexture: Display: Building texture TwoD: /Game/Objects/Imported_Objects/KitchenSink/Textures/Cabinet_MAT_BaseColo.Cabinet_MAT_BaseColo (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1120.999983 MB), EncodeSpeed: Final
+[2026.11.10-13.55.45:078][645]LogTexture: Display: Building texture TwoD: /Game/Objects/Imported_Objects/KitchenSink/Textures/Cabinet_MAT_BaseColo.Cabinet_MAT_BaseColo (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1120.999983 MB), EncodeSpeed: Final
+[2026.11.10-13.55.48:579][920]LogTexture: Display: Building texture TwoD: /Game/Objects/Imported_Objects/KitchenSink/Textures/Cabinet_MAT_BaseColo.Cabinet_MAT_BaseColo (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1120.999983 MB), EncodeSpeed: Final
+[2026.11.10-13.55.52:276][207]LogTexture: Display: Building texture TwoD: /Game/Objects/Imported_Objects/KitchenSink/Textures/Cabinet_MAT_BaseColo.Cabinet_MAT_BaseColo (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1120.999983 MB), EncodeSpeed: Final
+[2026.11.10-13.55.56:224][518]LogTexture: Display: Building texture TwoD: /Game/Objects/Imported_Objects/KitchenSink/Textures/Cabinet_MAT_BaseColo.Cabinet_MAT_BaseColo (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1120.999983 MB), EncodeSpeed: Final
+[2026.11.10-13.56.00:613][864]LogTexture: Display: Building texture TwoD: /Game/Objects/Imported_Objects/KitchenSink/Textures/Cabinet_MAT_BaseColo.Cabinet_MAT_BaseColo (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1120.999983 MB), EncodeSpeed: Final
+[2026.11.10-13.56.16:340][ 83]LogTexture: Display: Building texture TwoD: /Game/Objects/Imported_Objects/KitchenSink/Textures/Cabinet_MAT_BaseColo.Cabinet_MAT_BaseColo (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Final
+[2026.11.10-13.56.38:142][687]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Objects/Imported_Objects/KitchenCabinet/textures/WD_SecondWoodTrim_Albedo.WD_SecondWoodTrim_Albedo
+[2026.11.10-13.57.37:582][439]LogTexture: Display: Building texture TwoD: /Game/Objects/Imported_Objects/KitchenSink/Textures/Cabinet_MAT_BaseColo.Cabinet_MAT_BaseColo (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1120.999983 MB), EncodeSpeed: Final
+[2026.11.10-13.57.39:780][608]LogTexture: Display: Building texture TwoD: /Game/Objects/Imported_Objects/KitchenSink/Textures/Cabinet_MAT_BaseColo.Cabinet_MAT_BaseColo (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1120.999983 MB), EncodeSpeed: Final
+[2026.11.10-13.57.43:521][909]LogTexture: Display: Building texture TwoD: /Game/Objects/Imported_Objects/KitchenSink/Textures/Cabinet_MAT_BaseColo.Cabinet_MAT_BaseColo (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1120.999983 MB), EncodeSpeed: Final
+[2026.11.10-13.57.47:885][249]LogTexture: Display: Building texture TwoD: /Game/Objects/Imported_Objects/KitchenSink/Textures/Cabinet_MAT_BaseColo.Cabinet_MAT_BaseColo (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1120.999983 MB), EncodeSpeed: Final
+[2026.11.10-13.57.52:967][658]LogTexture: Display: Building texture TwoD: /Game/Objects/Imported_Objects/KitchenSink/Textures/Cabinet_MAT_BaseColo.Cabinet_MAT_BaseColo (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1120.999983 MB), EncodeSpeed: Final
+[2026.11.10-13.57.58:061][ 60]LogTexture: Display: Building texture TwoD: /Game/Objects/Imported_Objects/KitchenSink/Textures/Cabinet_MAT_BaseColo.Cabinet_MAT_BaseColo (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1120.999983 MB), EncodeSpeed: Final
+[2026.11.10-13.58.03:081][465]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node 8556459349979F0AB5E1828351C19EC8 (172.17.123.157:57398)
+[2026.11.10-13.58.04:236][559]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.10-13.58.04:315][559]LogFileHelpers: Saving Package: /Game/Objects/Imported_Objects/KitchenSink/Textures/Cabinet_MAT_BaseColo
+[2026.11.10-13.58.04:316][559]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Objects/Imported_Objects/KitchenSink/Textures/Cabinet_MAT_BaseColo] ([1] browsable assets)...
+[2026.11.10-13.58.04:318][559]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Objects/Imported_Objects/KitchenSink/Textures/Cabinet_MAT_BaseColo.Cabinet_MAT_BaseColo]
+[2026.11.10-13.58.04:318][559]OBJ SavePackage: Finished generating thumbnails for package [/Game/Objects/Imported_Objects/KitchenSink/Textures/Cabinet_MAT_BaseColo]
+[2026.11.10-13.58.04:388][559]LogSavePackage: Moving output files for package: /Game/Objects/Imported_Objects/KitchenSink/Textures/Cabinet_MAT_BaseColo
+[2026.11.10-13.58.04:390][559]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Cabinet_MAT_BaseColo134A84604871C78FD9A326ABAA013423.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/Objects/Imported_Objects/KitchenSink/Textures/Cabinet_MAT_BaseColo.uasset'
+[2026.11.10-13.58.04:400][559]LogFileHelpers: InternalPromptForCheckoutAndSave took 164.695 ms (total: 4.45 sec)
+[2026.11.10-13.58.04:461][559]LogContentValidation: Enabled validators:
+[2026.11.10-13.58.04:461][559]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.10-13.58.04:461][559]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.11.10-13.58.04:461][559]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.10-13.58.04:461][559]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.10-13.58.04:461][559]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.10-13.58.04:461][559]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.10-13.58.04:461][559]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.10-13.58.04:461][559]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.11.10-13.58.04:461][559]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.11.10-13.58.04:461][559]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.11.10-13.58.04:461][559]LogContentValidation: Additional assets added for validation by 0 validators:
+[2026.11.10-13.58.04:462][559]AssetCheck: /Game/Objects/Imported_Objects/KitchenSink/Textures/Cabinet_MAT_BaseColo Validating asset
+[2026.11.10-13.58.04:462][559]LogContentValidation: Validated asset counts for 9 validators:
+[2026.11.10-13.58.04:462][559]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.11.10-13.58.04:462][559]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.11.10-13.58.04:462][559]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.11.10-13.58.04:462][559]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.11.10-13.58.04:462][559]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.11.10-13.58.04:462][559]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.11.10-13.58.04:462][559]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.11.10-13.58.04:462][559]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.11.10-13.58.04:462][559]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.11.10-13.58.04:517][559]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/SourceControl/UncontrolledChangelists.json
+[2026.11.10-13.58.12:393][162]LogUdpMessaging: Display: FUdpMessageProcessor::UpdateKnownNodes: Removing Node 40E704B04811493902A2B18DBC08D029 (172.17.122.251:51085)
+[2026.11.10-13.58.21:010][737]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Objects/Imported_Objects/KitchenSink/Textures/Drawers_MAT_BaseColor.Drawers_MAT_BaseColor
+[2026.11.10-13.58.25:188][146]LogTexture: Display: Building texture TwoD: /Game/Objects/Imported_Objects/KitchenSink/Textures/Drawers_MAT_BaseColor.Drawers_MAT_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1120.999983 MB), EncodeSpeed: Final
+[2026.11.10-13.58.25:447][146]LogTexture: Display: Building texture TwoD: /Game/Objects/Imported_Objects/KitchenSink/Textures/Drawers_MAT_BaseColor.Drawers_MAT_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1120.999983 MB), EncodeSpeed: Final
+[2026.11.10-13.58.27:779][399]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14105.079102
+[2026.11.10-13.58.27:956][416]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.11.10-13.58.27:956][416]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14105.246094, Update Interval: 309.530945
+[2026.11.10-13.58.33:278][951]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.10-13.58.33:345][951]LogFileHelpers: Saving Package: /Game/Objects/Imported_Objects/KitchenSink/Textures/Drawers_MAT_BaseColor
+[2026.11.10-13.58.33:345][951]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Objects/Imported_Objects/KitchenSink/Textures/Drawers_MAT_BaseColor] ([1] browsable assets)...
+[2026.11.10-13.58.33:355][951]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Objects/Imported_Objects/KitchenSink/Textures/Drawers_MAT_BaseColor.Drawers_MAT_BaseColor]
+[2026.11.10-13.58.33:355][951]OBJ SavePackage: Finished generating thumbnails for package [/Game/Objects/Imported_Objects/KitchenSink/Textures/Drawers_MAT_BaseColor]
+[2026.11.10-13.58.33:438][951]LogSavePackage: Moving output files for package: /Game/Objects/Imported_Objects/KitchenSink/Textures/Drawers_MAT_BaseColor
+[2026.11.10-13.58.33:439][951]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Drawers_MAT_BaseColor3D4D5AB74E659C771033189AA061AFC8.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/Objects/Imported_Objects/KitchenSink/Textures/Drawers_MAT_BaseColor.uasset'
+[2026.11.10-13.58.33:452][951]LogFileHelpers: InternalPromptForCheckoutAndSave took 174.492 ms (total: 4.62 sec)
+[2026.11.10-13.58.33:514][951]LogContentValidation: Enabled validators:
+[2026.11.10-13.58.33:514][951]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.10-13.58.33:514][951]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.11.10-13.58.33:514][951]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.10-13.58.33:514][951]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.10-13.58.33:514][951]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.10-13.58.33:514][951]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.10-13.58.33:514][951]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.10-13.58.33:514][951]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.11.10-13.58.33:514][951]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.11.10-13.58.33:514][951]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.11.10-13.58.33:514][951]LogContentValidation: Additional assets added for validation by 0 validators:
+[2026.11.10-13.58.33:514][951]AssetCheck: /Game/Objects/Imported_Objects/KitchenSink/Textures/Drawers_MAT_BaseColor Validating asset
+[2026.11.10-13.58.33:514][951]LogContentValidation: Validated asset counts for 9 validators:
+[2026.11.10-13.58.33:515][951]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.11.10-13.58.33:515][951]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.11.10-13.58.33:515][951]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.11.10-13.58.33:515][951]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.11.10-13.58.33:515][951]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.11.10-13.58.33:515][951]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.11.10-13.58.33:515][951]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.11.10-13.58.33:515][951]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.11.10-13.58.33:515][951]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.11.10-13.58.33:590][951]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/SourceControl/UncontrolledChangelists.json
+[2026.11.10-13.58.44:327][923]LogSlate: Window 'Ceiling' being destroyed
+[2026.11.10-13.58.44:333][923]LogSlate: Window 'Ceiling' being destroyed
+[2026.11.10-13.58.44:441][923]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2026.11.10-13.58.44:442][923]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-13.58.44:572][923]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2026.11.10-14.00.32:977][478]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.10-14.00.33:070][478]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2026.11.10-14.00.33:106][478]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2026.11.10-14.00.33:138][478]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2026.11.10-14.00.33:143][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/1/MM/LAD76WV4U8ZVECH0KNRJLD
+[2026.11.10-14.00.33:153][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/1/MM/LAD76WV4U8ZVECH0KNRJLD
+[2026.11.10-14.00.33:154][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/LAD76WV4U8ZVECH0KNRJLD5997238E4D382F4E9E8D5BBEE74580F8.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/1/MM/LAD76WV4U8ZVECH0KNRJLD.uasset'
+[2026.11.10-14.00.33:154][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/2/LD/YCLW2DKVN9O6BFS4LGGOBC
+[2026.11.10-14.00.33:162][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/2/LD/YCLW2DKVN9O6BFS4LGGOBC
+[2026.11.10-14.00.33:163][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/YCLW2DKVN9O6BFS4LGGOBC69C1CF7440D3FAE766BFD392818BFE10.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/2/LD/YCLW2DKVN9O6BFS4LGGOBC.uasset'
+[2026.11.10-14.00.33:164][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/2/YO/8ICWHWYQRIIF735IHPM645
+[2026.11.10-14.00.33:170][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/2/YO/8ICWHWYQRIIF735IHPM645
+[2026.11.10-14.00.33:171][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/8ICWHWYQRIIF735IHPM64510B2F3FC44AEAC256EB7ADB56A289F72.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/2/YO/8ICWHWYQRIIF735IHPM645.uasset'
+[2026.11.10-14.00.33:172][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/3/ZD/5SKX6N9DLTGF9SK6HVZFB6
+[2026.11.10-14.00.33:179][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/3/ZD/5SKX6N9DLTGF9SK6HVZFB6
+[2026.11.10-14.00.33:179][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/5SKX6N9DLTGF9SK6HVZFB62EE12F1B4A61A61D1BD312855C9E5589.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/3/ZD/5SKX6N9DLTGF9SK6HVZFB6.uasset'
+[2026.11.10-14.00.33:181][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/4/E5/DUUA3NXGM2RN80R1JIWBUW
+[2026.11.10-14.00.33:187][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/4/E5/DUUA3NXGM2RN80R1JIWBUW
+[2026.11.10-14.00.33:188][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/DUUA3NXGM2RN80R1JIWBUW0C7B7D4E49A1BAB9CF202BB1D3D4C18E.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/4/E5/DUUA3NXGM2RN80R1JIWBUW.uasset'
+[2026.11.10-14.00.33:189][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/4/C7/QTVWY5SGO5OMP3YDLC9UUB
+[2026.11.10-14.00.33:195][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/4/C7/QTVWY5SGO5OMP3YDLC9UUB
+[2026.11.10-14.00.33:196][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/QTVWY5SGO5OMP3YDLC9UUBB513578B49B0CC823F233D9F44CC7F25.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/4/C7/QTVWY5SGO5OMP3YDLC9UUB.uasset'
+[2026.11.10-14.00.33:197][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/6/6F/7UKGZDM0RDI8KTPN2ITYFU
+[2026.11.10-14.00.33:203][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/6/6F/7UKGZDM0RDI8KTPN2ITYFU
+[2026.11.10-14.00.33:203][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/7UKGZDM0RDI8KTPN2ITYFUE4F63ED84F3FCE9A6F4E6D877418B3F3.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/6/6F/7UKGZDM0RDI8KTPN2ITYFU.uasset'
+[2026.11.10-14.00.33:205][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/6/85/IMN5TA8ZR8JFTPLHOVRGBF
+[2026.11.10-14.00.33:212][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/6/85/IMN5TA8ZR8JFTPLHOVRGBF
+[2026.11.10-14.00.33:212][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/IMN5TA8ZR8JFTPLHOVRGBF0094F11F4C588612F5921C8C1431A390.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/6/85/IMN5TA8ZR8JFTPLHOVRGBF.uasset'
+[2026.11.10-14.00.33:213][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/7/57/PVNL7B35OW4OGLDMES56OP
+[2026.11.10-14.00.33:221][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/7/57/PVNL7B35OW4OGLDMES56OP
+[2026.11.10-14.00.33:221][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/PVNL7B35OW4OGLDMES56OP6E0B25A74E6764F66620F59F189A2ED6.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/7/57/PVNL7B35OW4OGLDMES56OP.uasset'
+[2026.11.10-14.00.33:222][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/7/Q3/9ISHARLO0ESCZ7HOFUE6JC
+[2026.11.10-14.00.33:228][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/7/Q3/9ISHARLO0ESCZ7HOFUE6JC
+[2026.11.10-14.00.33:229][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/9ISHARLO0ESCZ7HOFUE6JC1ABD7CF44D637188720CB8A7BB2958AA.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/7/Q3/9ISHARLO0ESCZ7HOFUE6JC.uasset'
+[2026.11.10-14.00.33:230][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/7/RV/FMMX5HNSZMRYL5IIJW28BC
+[2026.11.10-14.00.33:238][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/7/RV/FMMX5HNSZMRYL5IIJW28BC
+[2026.11.10-14.00.33:239][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/FMMX5HNSZMRYL5IIJW28BCC7125B884C6ED76ADA0594A93762B354.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/7/RV/FMMX5HNSZMRYL5IIJW28BC.uasset'
+[2026.11.10-14.00.33:239][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/7/TA/OM9NVIKMB7KIIFAX3SMT0D
+[2026.11.10-14.00.33:248][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/7/TA/OM9NVIKMB7KIIFAX3SMT0D
+[2026.11.10-14.00.33:248][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/OM9NVIKMB7KIIFAX3SMT0DA7F3ED134AB431D31C7888B93FE963F7.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/7/TA/OM9NVIKMB7KIIFAX3SMT0D.uasset'
+[2026.11.10-14.00.33:249][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/9/GS/CFDSVPCYI2W6NCNSEN7O2S
+[2026.11.10-14.00.33:255][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/9/GS/CFDSVPCYI2W6NCNSEN7O2S
+[2026.11.10-14.00.33:256][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/CFDSVPCYI2W6NCNSEN7O2S9A42BEA3472A0EFBEE981BABA331B5A8.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/9/GS/CFDSVPCYI2W6NCNSEN7O2S.uasset'
+[2026.11.10-14.00.33:257][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/9/J7/5ZXFF5CY9D50AF21OY6JIC
+[2026.11.10-14.00.33:264][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/9/J7/5ZXFF5CY9D50AF21OY6JIC
+[2026.11.10-14.00.33:265][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/5ZXFF5CY9D50AF21OY6JIC78B92B6045B4152041F35998697C3743.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/9/J7/5ZXFF5CY9D50AF21OY6JIC.uasset'
+[2026.11.10-14.00.33:266][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/9/RI/5HL3VXYIR143V69UK0DDLK
+[2026.11.10-14.00.33:273][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/9/RI/5HL3VXYIR143V69UK0DDLK
+[2026.11.10-14.00.33:273][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/5HL3VXYIR143V69UK0DDLK8DFE81FA458FF52B601903BD263267CC.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/9/RI/5HL3VXYIR143V69UK0DDLK.uasset'
+[2026.11.10-14.00.33:275][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/B/E9/5832Q55EEASAHDIQOAY97Z
+[2026.11.10-14.00.33:282][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/B/E9/5832Q55EEASAHDIQOAY97Z
+[2026.11.10-14.00.33:282][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/5832Q55EEASAHDIQOAY97ZD2EBF2114C338D8C3D2F5B8755B11B4F.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/B/E9/5832Q55EEASAHDIQOAY97Z.uasset'
+[2026.11.10-14.00.33:283][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/B/WP/T0RH1R6ATW1OF0VK7FV62R
+[2026.11.10-14.00.33:291][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/B/WP/T0RH1R6ATW1OF0VK7FV62R
+[2026.11.10-14.00.33:291][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/T0RH1R6ATW1OF0VK7FV62REB3331BC4A39FB8804CC1F94CDDC8E96.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/B/WP/T0RH1R6ATW1OF0VK7FV62R.uasset'
+[2026.11.10-14.00.33:293][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/C/2C/OZ39YDO4CXOSA6WD7AGZS0
+[2026.11.10-14.00.33:299][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/C/2C/OZ39YDO4CXOSA6WD7AGZS0
+[2026.11.10-14.00.33:300][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/OZ39YDO4CXOSA6WD7AGZS0A94003F74BF03BA645DA37840288442E.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/C/2C/OZ39YDO4CXOSA6WD7AGZS0.uasset'
+[2026.11.10-14.00.33:301][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/C/MN/390TXJM3ZFMJHIK6PD0QHH
+[2026.11.10-14.00.33:307][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/C/MN/390TXJM3ZFMJHIK6PD0QHH
+[2026.11.10-14.00.33:308][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/390TXJM3ZFMJHIK6PD0QHHE79A4C0C47B7A38F32BD828B59AD70D7.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/C/MN/390TXJM3ZFMJHIK6PD0QHH.uasset'
+[2026.11.10-14.00.33:310][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/D/EY/X0ZC28KAIBWHZ1SITUEHR2
+[2026.11.10-14.00.33:316][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/D/EY/X0ZC28KAIBWHZ1SITUEHR2
+[2026.11.10-14.00.33:317][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/X0ZC28KAIBWHZ1SITUEHR2CC0C59454217079EBA01FBA786A24F5C.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/D/EY/X0ZC28KAIBWHZ1SITUEHR2.uasset'
+[2026.11.10-14.00.33:318][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/E/JW/U3VYY2OGVMZVC12JDTBRA3
+[2026.11.10-14.00.33:324][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/E/JW/U3VYY2OGVMZVC12JDTBRA3
+[2026.11.10-14.00.33:324][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/U3VYY2OGVMZVC12JDTBRA3FFF05BFD486EA5976823D6B67CF23B73.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/E/JW/U3VYY2OGVMZVC12JDTBRA3.uasset'
+[2026.11.10-14.00.33:326][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/0/UD/57K05Z28LS9AC407V5WIXF
+[2026.11.10-14.00.33:334][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/0/UD/57K05Z28LS9AC407V5WIXF
+[2026.11.10-14.00.33:334][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/57K05Z28LS9AC407V5WIXFED5822554A1149F2DFB8F7B1FC57B387.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/0/UD/57K05Z28LS9AC407V5WIXF.uasset'
+[2026.11.10-14.00.33:335][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/7/RG/VVEFJCW115HLFUS2PVJD5E
+[2026.11.10-14.00.33:341][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/7/RG/VVEFJCW115HLFUS2PVJD5E
+[2026.11.10-14.00.33:342][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/VVEFJCW115HLFUS2PVJD5EBFF8CAF347E2E273715C389E1468A368.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/7/RG/VVEFJCW115HLFUS2PVJD5E.uasset'
+[2026.11.10-14.00.33:343][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/5/KN/YHS2DXV2UD91YLWWKGJWH5
+[2026.11.10-14.00.33:351][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/5/KN/YHS2DXV2UD91YLWWKGJWH5
+[2026.11.10-14.00.33:351][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/YHS2DXV2UD91YLWWKGJWH53FF2F128422E12FC86657A960B726535.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/5/KN/YHS2DXV2UD91YLWWKGJWH5.uasset'
+[2026.11.10-14.00.33:352][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/0/EW/5XU9PURKA08GF5QIDGBOO2
+[2026.11.10-14.00.33:359][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/0/EW/5XU9PURKA08GF5QIDGBOO2
+[2026.11.10-14.00.33:359][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/5XU9PURKA08GF5QIDGBOO207820D1B4CD4FEAE980D869FD00E39E4.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/0/EW/5XU9PURKA08GF5QIDGBOO2.uasset'
+[2026.11.10-14.00.33:361][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/0/SS/BUY3NCI2WCWNZT62W3W2QR
+[2026.11.10-14.00.33:367][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/0/SS/BUY3NCI2WCWNZT62W3W2QR
+[2026.11.10-14.00.33:367][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/BUY3NCI2WCWNZT62W3W2QR33A4C21D47A85B77B2BE628464C65788.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/0/SS/BUY3NCI2WCWNZT62W3W2QR.uasset'
+[2026.11.10-14.00.33:368][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/C/QC/7AUVBVA7F9DDRTXVU0S2HR
+[2026.11.10-14.00.33:375][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/C/QC/7AUVBVA7F9DDRTXVU0S2HR
+[2026.11.10-14.00.33:375][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/7AUVBVA7F9DDRTXVU0S2HR6A22C7A0408DF9C3C0324AA907547142.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/C/QC/7AUVBVA7F9DDRTXVU0S2HR.uasset'
+[2026.11.10-14.00.33:377][478]LogFileHelpers: Saving Package: /Game/__ExternalActors__/Levels/Level_Blockout/3/LL/91UOPF5ROZ4WI55G4Z6UPL
+[2026.11.10-14.00.33:383][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level_Blockout/3/LL/91UOPF5ROZ4WI55G4Z6UPL
+[2026.11.10-14.00.33:383][478]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/91UOPF5ROZ4WI55G4Z6UPL75582A1D49D2C41B4939B9859E5584F7.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/__ExternalActors__/Levels/Level_Blockout/3/LL/91UOPF5ROZ4WI55G4Z6UPL.uasset'
+[2026.11.10-14.00.33:390][478]LogFileHelpers: InternalPromptForCheckoutAndSave took 413.648 ms (total: 5.04 sec)
+[2026.11.10-14.00.33:466][478]LogContentValidation: Enabled validators:
+[2026.11.10-14.00.33:466][478]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.10-14.00.33:466][478]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.11.10-14.00.33:466][478]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.10-14.00.33:466][478]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.10-14.00.33:466][478]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.10-14.00.33:466][478]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.10-14.00.33:466][478]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.10-14.00.33:466][478]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.11.10-14.00.33:466][478]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.11.10-14.00.33:466][478]LogContentValidation: Display: Starting to validate 1 assets (28 associated objects such as actors)
+[2026.11.10-14.00.33:466][478]LogContentValidation: Additional assets added for validation by 0 validators:
+[2026.11.10-14.00.33:467][478]AssetCheck: /Game/Levels/Level_Blockout Validating asset
+[2026.11.10-14.00.33:467][478]LogContentValidation: Validated asset counts for 9 validators:
+[2026.11.10-14.00.33:467][478]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.11.10-14.00.33:467][478]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.11.10-14.00.33:467][478]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.11.10-14.00.33:467][478]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.11.10-14.00.33:467][478]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.11.10-14.00.33:467][478]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.11.10-14.00.33:467][478]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.11.10-14.00.33:467][478]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.11.10-14.00.33:467][478]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.11.10-14.00.33:495][478]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/SourceControl/UncontrolledChangelists.json
+[2026.11.10-14.00.35:085][643]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2026.11.10-14.00.36:151][643]LogSlate: Window 'Save Content' being destroyed
+[2026.11.10-14.00.36:170][643]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.11.10-14.00.36:218][643]LogFileHelpers: Saving Package: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint
+[2026.11.10-14.00.36:218][643]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Objects/Materials/Imports/Wall_paint/Wall_Paint] ([1] browsable assets)...
+[2026.11.10-14.00.36:218][643]OBJ SavePackage: Finished generating thumbnails for package [/Game/Objects/Materials/Imports/Wall_paint/Wall_Paint]
+[2026.11.10-14.00.36:227][643]LogSavePackage: Moving output files for package: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint
+[2026.11.10-14.00.36:227][643]LogSavePackage: Moving '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/Wall_Paint191EA9F3444C3029A79685B0F3F676C9.tmp' to '../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Content/Objects/Materials/Imports/Wall_paint/Wall_Paint.uasset'
+[2026.11.10-14.00.36:235][643]LogFileHelpers: InternalPromptForCheckoutAndSave took 65.130 ms (total: 5.10 sec)
+[2026.11.10-14.00.36:281][643]LogContentValidation: Enabled validators:
+[2026.11.10-14.00.36:281][643]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.11.10-14.00.36:281][643]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.11.10-14.00.36:281][643]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.11.10-14.00.36:281][643]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.11.10-14.00.36:281][643]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.11.10-14.00.36:281][643]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.11.10-14.00.36:281][643]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.11.10-14.00.36:281][643]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.11.10-14.00.36:281][643]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.11.10-14.00.36:281][643]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.11.10-14.00.36:281][643]LogContentValidation: Additional assets added for validation by 0 validators:
+[2026.11.10-14.00.36:281][643]AssetCheck: /Game/Objects/Materials/Imports/Wall_paint/Wall_Paint Validating asset
+[2026.11.10-14.00.36:281][643]LogContentValidation: Validated asset counts for 9 validators:
+[2026.11.10-14.00.36:281][643]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.11.10-14.00.36:281][643]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.11.10-14.00.36:281][643]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.11.10-14.00.36:281][643]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.11.10-14.00.36:281][643]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.11.10-14.00.36:281][643]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.11.10-14.00.36:281][643]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.11.10-14.00.36:281][643]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.11.10-14.00.36:281][643]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.11.10-14.00.36:295][643]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/B00988831/Desktop/Game project/Pushing_Paul/Pushing_Paul/Saved/SourceControl/UncontrolledChangelists.json
+[2026.11.10-14.00.40:903][131]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2026.11.10-14.00.41:017][131]LogStall: Shutdown...
+[2026.11.10-14.00.41:025][131]LogStall: Shutdown complete.
+[2026.11.10-14.00.41:107][131]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2026.11.10-14.00.41:107][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-14.00.41:275][131]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.11.10-14.00.41:275][131]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2026.11.10-14.00.41:275][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-14.00.41:375][131]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.11.10-14.00.41:376][131]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2026.11.10-14.00.41:376][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-14.00.41:508][131]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.11.10-14.00.41:508][131]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2026.11.10-14.00.41:508][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-14.00.41:625][131]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.11.10-14.00.41:625][131]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2026.11.10-14.00.41:625][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-14.00.41:739][131]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.11.10-14.00.41:739][131]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2026.11.10-14.00.41:739][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-14.00.41:881][131]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2026.11.10-14.00.41:881][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-14.00.41:912][131]LogSlate: Window 'Bridge' being destroyed
+[2026.11.10-14.00.41:915][131]LogSlate: Window 'Pushing_Paul - Unreal Editor' being destroyed
+[2026.11.10-14.00.42:365][131]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2026.11.10-14.00.42:416][131]Cmd: QUIT_EDITOR
+[2026.11.10-14.00.42:416][132]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2026.11.10-14.00.42:430][132]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.11.10-14.00.42:431][132]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.11.10-14.00.42:431][132]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.11.10-14.00.42:437][132]LogWorld: UWorld::CleanupWorld for Level_Blockout, bSessionEnded=true, bCleanupResources=true
+[2026.11.10-14.00.42:439][132]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2026.11.10-14.00.42:440][132]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-14.00.42:441][132]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/Level_Blockout.Level_Blockout
+[2026.11.10-14.00.42:442][132]LogMovieScene: USequencerBakeSubsystem subsystem deinitialized.
+[2026.11.10-14.00.42:479][132]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2026.11.10-14.00.42:505][132]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.11.10-14.00.42:522][132]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2026.11.10-14.00.42:522][132]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-14.00.42:526][132]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2026.11.10-14.00.42:526][132]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-14.00.42:531][132]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2026.11.10-14.00.42:532][132]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-14.00.42:535][132]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2026.11.10-14.00.42:535][132]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-14.00.42:536][132]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2026.11.10-14.00.42:536][132]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.11.10-14.00.42:544][132]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.11.10-14.00.42:552][132]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2026.11.10-14.00.43:431][132]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerWasapi)...
+[2026.11.10-14.00.43:431][132]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.11.10-14.00.43:432][132]LogAudio: Display: Audio Device unregistered from world 'Level_Blockout'.
+[2026.11.10-14.00.43:432][132]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.11.10-14.00.43:432][132]LogAudioMixer: Display: FAudioMixerWasapi::StopAudioStream() InstanceID=1, StreamState=4
+[2026.11.10-14.00.43:441][132]LogAudioMixerWasapi: Display: FWasapiServiceWatcher stopped.
+[2026.11.10-14.00.43:453][132]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.11.10-14.00.43:453][132]LogAudio: Display: Audio Device Manager Shutdown
+[2026.11.10-14.00.43:474][132]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.11.10-14.00.43:476][132]LogExit: Preparing to exit.
+[2026.11.10-14.00.43:799][132]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2026.11.10-14.00.43:809][132]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.11.10-14.00.44:152][132]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+[2026.11.10-14.00.44:152][132]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 0 total binaries, 0 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.11.10-14.00.44:157][132]LogEditorDataStorage: Deinitializing
+[2026.11.10-14.00.44:160][132]LogEditorDataStorage: De-initializing TEDS Compatibility.
+[2026.11.10-14.00.44:160][132]LogEditorDataStorage: De-initialized TEDS Compatibility.
+[2026.11.10-14.00.44:160][132]LogEditorDataStorage: De-initializing TEDS Core.
+[2026.11.10-14.00.44:160][132]LogEditorDataStorage: Resetting TEDS Core.
+[2026.11.10-14.00.44:167][132]LogEditorDataStorage: Reset TEDS Core.
+[2026.11.10-14.00.44:167][132]LogEditorDataStorage: De-initialized TEDS Core.
+[2026.11.10-14.00.44:372][132]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.11.10-14.00.44:439][132]LogExit: Editor shut down
+[2026.11.10-14.00.44:452][132]LogExit: Transaction tracking system shut down
+[2026.11.10-14.00.44:837][132]LogEditorDataStorage: Destroyed TEDS Core.
+[2026.11.10-14.00.44:838][132]LogEditorDataStorage: Destroyed TEDS Compatibility.
+[2026.11.10-14.00.44:871][132]LogEditorDataStorage: Destroyed TEDS Core.
+[2026.11.10-14.00.44:871][132]LogEditorDataStorage: Destroyed TEDS Compatibility.
+[2026.11.10-14.00.45:032][132]LogWebBrowser: Deleting browser for Url=https://quixel.com/?code=047d7c5af52346c4b527a2b719fa9442.
+[2026.11.10-14.00.45:146][132]LogExit: Object subsystem successfully closed.
+[2026.11.10-14.00.45:240][132]LogShaderCompilers: Display: Exiting ShaderCompilingThread
+[2026.11.10-14.00.45:776][132]LogWebBrowser: Deleting browser for Url=file:///C:/Program%20Files/Epic%20Games/UE_5.8/Engine/Plugins/Bridge/ThirdParty/megascans/index.html#/megascans/home?category=surface&search=ceiling.
+[2026.11.10-14.00.45:870][132]LogObjectProfiler: Shutdown
+[2026.11.10-14.00.45:870][132]LogMemoryProfiler: Shutdown
+[2026.11.10-14.00.45:871][132]LogNetworkingProfiler: Shutdown
+[2026.11.10-14.00.45:871][132]LogLoadingProfiler: Shutdown
+[2026.11.10-14.00.45:871][132]LogTimingProfiler: Shutdown
+[2026.11.10-14.00.45:875][132]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.11.10-14.00.45:875][132]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.11.10-14.00.45:875][132]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDCameraTracesExtension] ...
+[2026.11.10-14.00.45:875][132]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDParticleExtraDataExtension] ...
+[2026.11.10-14.00.45:875][132]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FPerformanceMetricsExtension] ...
+[2026.11.10-14.00.46:368][132]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.11.10-14.00.46:377][132]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2026.11.10-14.00.46:377][132]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCE080294-4136-775E-4D9A-EBBB84C4CE39%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.8.3-58210709%2B%2B%2BUE5%2BRelease-5.8&UserID=e7d5faca6e8344ae9b45d810dba98875%7C%7Ca7068d6a-ccc2-4548-a587-75bf9036c355&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2026.11.10-14.00.46:941][132]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2026.11.10-14.00.46:947][132]LogNFORDenoise: NFORDenoise function shutting down
+[2026.11.10-14.00.46:949][132]RenderDocPlugin: plugin has been unloaded.
+[2026.11.10-14.00.46:950][132]LogXGEController: Cleaning working directory: C:/Users/B00988831/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2026.11.10-14.00.46:957][132]LogPakFile: Destroying PakPlatformFile
+[2026.11.10-14.00.47:351][132]LogD3D12RHI: ~FD3D12DynamicRHI
+[2026.11.10-14.00.47:476][132]LogExit: Exiting.
+[2026.11.10-14.00.47:506][132]Log file closed, 11/10/26 14:00:47
